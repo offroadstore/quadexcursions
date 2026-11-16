@@ -63,6 +63,17 @@
 .qe-search-results a { font-weight: 600; font-size: 17px; }
 .qe-search-results p { margin: 4px 0 0; font-size: 14px; opacity: .8; }
 
+/* WhatsApp booking inquiry link */
+.migration-booking-link a { display: inline-flex; align-items: center; gap: 7px; }
+.migration-booking-link a::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  background: url("/migrated-assets/9cb2fd7bab023aba3056.png") center / contain no-repeat;
+}
+
 /* AOS without runtime: elements become visible once .aos-animate is set; never stay hidden */
 [data-aos] { transition: opacity .6s ease, transform .6s ease; }
 [data-aos].aos-animate { opacity: 1 !important; transform: none !important; visibility: visible !important; }
