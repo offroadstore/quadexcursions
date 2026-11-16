@@ -1,0 +1,1 @@
+- [Titolarità Quad Excursions](quad-migration.md) — il richiedente ha confermato di essere il proprietario del sito da migrare.

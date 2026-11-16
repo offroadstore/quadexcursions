@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "DA1XwhrfQiMrmKhdWnb8p"
+uri = "file://generated-artifacts/inventario-migrazione-quad.csv"
+type = "table"
+title = "Inventario della migrazione Quad Excursions"
+description = "Elenco dei 215 URL importati e dei 66 URL che il sito sorgente non ha restituito correttamente, con lingua e titolo delle pagine recuperate."
+logical_id = "0ee993dd-cb6f-4978-944f-b109d93d37fd"
+content_hash = "sha256:46d500da1cce8ee14edf293ae0ad1240b76ee235e50ab7cd1fdbb48011346326"
+size = 46479
+mtime_ms = 1794829496599
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:abdee21b-a6ae-4257-a707-f4c20d53f7a4/0ee993dd-cb6f-4978-944f-b109d93d37fd/28cf34ef-29f2-401d-bbcd-207a4568e948"
+storage_version_token = "1794829564050204"
+content_type = "text/csv"

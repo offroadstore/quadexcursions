@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Quad Excursions"
+description = "Migrazione fedele del sito Quad Excursions da Framework360, con contenuti e immagini originali e conservazione dei percorsi URL per la SEO."
+version = "1.0.0"
+id = "artifacts/quad-excursions"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23990
+
+[services.development]
+run = "pnpm --filter @workspace/quad-excursions run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/quad-excursions", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/quad-excursions/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23990"
+BASE_PATH = "/"

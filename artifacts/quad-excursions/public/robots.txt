@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /registrazione/
+Disallow: /recupero-password/
+Sitemap: https://www.quadexcursions.com/sitemap.xml
