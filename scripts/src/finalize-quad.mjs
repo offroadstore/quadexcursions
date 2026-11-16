@@ -10,6 +10,8 @@ const assets = JSON.parse(await fs.readFile(path.join(research, 'asset-map.json'
 const report = JSON.parse(await fs.readFile(path.join(app, 'migration-report.json'), 'utf8'));
 const successfulPaths = new Set(manifest.map(p => p.path));
 const origin = 'https://www.quadexcursions.com';
+const whatsappNumber = '390921766518';
+const whatsappDisplay = '+39 0921 766518';
 let blockedEmbeds = 0;
 let localReferences = 0;
 let removedAlternates = 0;
@@ -49,8 +51,90 @@ const localize = (value) => {
 for (const page of manifest) {
   const file = path.join(app, 'site-pages', page.file);
   const $ = load(await fs.readFile(file, 'utf8'));
+  $('span').each((_, e) => {
+    const span = $(e);
+    const digits = span.text().replace(/\D/g, '');
+    if (digits.includes('390921766476')) {
+      span.empty().append(
+        $('<a>').attr({
+          href: `https://wa.me/${whatsappNumber}`,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          style: 'color:inherit;text-decoration:none',
+        }).text(whatsappDisplay)
+      );
+    }
+  });
+  const desktopHeader = $('.ms-visualbuilder-block-header .ms-deviceonly-general').first();
+  if (desktopHeader.length && !desktopHeader.find('a[href="https://wa.me/' + whatsappNumber + '"]').length) {
+    const searchBlock = desktopHeader.find('.ms-block-title-with-icon').filter((_, e) =>
+      /Trova escursioni|Find excursions|busca excursiones/i.test($(e).text())
+    ).first();
+    let headerColumn = searchBlock.closest('.ms-col-4, .ms-col-6').first();
+    if (!headerColumn.length) headerColumn = desktopHeader.find('.ms-col-4').first();
+    if (headerColumn.length) {
+      headerColumn.append(
+        $('<p class="qe-header-whatsapp">').attr('style', 'margin:2px 0 0;font-size:14px;line-height:1.3').append(
+          $('<a>').attr({
+            href: `https://wa.me/${whatsappNumber}`,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+            style: 'color:#ecf0f1;text-decoration:none',
+          }).text(`WhatsApp: ${whatsappDisplay}`)
+        )
+      );
+    }
+  }
+  $('p').each((_, e) => {
+    const paragraph = $(e);
+    if (paragraph.hasClass('migration-booking-link')) return;
+    if (!/whatsapp/i.test(paragraph.text())) return;
+    paragraph.empty().append(
+      $('<span>').attr('style', 'color:#2fcc71').text('WhatsApp'),
+      ': ',
+      $('<a>').attr({
+        href: `https://wa.me/${whatsappNumber}`,
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      }).text(whatsappDisplay)
+    );
+  });
+  $('a[href*="wa.me/"]').each((_, e) => {
+    const anchor = $(e);
+    const href = anchor.attr('href');
+    if (!href) return;
+    try {
+      const url = new URL(href);
+      url.pathname = `/${whatsappNumber}`;
+      anchor.attr('href', url.toString());
+    } catch {}
+  });
   $('iframe').each((_, e) => {
     const iframe = $(e);
+    if (iframe.attr('id') === 'regiondo-booking-widget') {
+      const labels = {
+        it: 'Richiedi informazioni su WhatsApp',
+        en: 'Ask for information on WhatsApp',
+        fr: 'Demander des informations sur WhatsApp',
+        de: 'Informationen per WhatsApp anfragen',
+        es: 'Solicitar información por WhatsApp',
+      };
+      const messages = {
+        it: 'Ciao, vorrei informazioni su:',
+        en: 'Hello, I would like information about:',
+        fr: 'Bonjour, je souhaiterais des informations sur :',
+        de: 'Hallo, ich hätte gerne Informationen zu:',
+        es: 'Hola, quisiera información sobre:',
+      };
+      const url = new URL(`https://wa.me/${whatsappNumber}`);
+      url.searchParams.set('text', `${messages[page.lang] || messages.it} ${page.title}`);
+      iframe.next('.migration-booking-link').remove();
+      iframe.replaceWith($('<p class="migration-booking-link">').append(
+        $('<a>').attr({ href: url.toString(), target: '_blank', rel: 'noopener noreferrer' })
+          .text(labels[page.lang] || labels.it)
+      ));
+      return;
+    }
     const src = iframe.attr('src') || iframe.attr('data-src') || iframe.attr('data-url');
     if (src && /youtube|google\.com\/maps|maps\.google|regiondo|vimeo|tripadvisor/i.test(src)) {
       iframe.attr('data-src', src).removeAttr('src');
@@ -60,19 +144,6 @@ for (const page of manifest) {
     if (video && posters.has(video) && iframe.closest('.ms-background-video-foreground').length) {
       const overlay = iframe.closest('.ms-embed-video');
       overlay.attr('style', `${overlay.attr('style') || ''};background-image:url('${posters.get(video)}');background-size:cover;background-position:center;`);
-    }
-    if (iframe.attr('id') === 'regiondo-booking-widget') {
-      const url = iframe.attr('data-url');
-      if (url && !iframe.next('.migration-booking-link').length) {
-        iframe.after($('<p class="migration-booking-link">').append(
-          $('<a>').attr({ href: url, target: '_blank', rel: 'noopener noreferrer' }).text(
-            page.lang === 'it' ? 'Apri il calendario di prenotazione' :
-            page.lang === 'fr' ? 'Ouvrir le calendrier des réservations' :
-            page.lang === 'de' ? 'Buchungskalender öffnen' :
-            page.lang === 'es' ? 'Abrir calendario de reservas' : 'Open booking calendar'
-          )
-        ));
-      }
     }
   });
   $('link[rel=preload][as=image]').each((_, e) => {
@@ -136,8 +207,8 @@ await fs.writeFile(path.join(app, 'public/sitemap.xml'), sitemap.xml());
 report.serverRenderedPages = manifest.length;
 report.externalEmbedsConsentGated = blockedEmbeds;
 report.unavailableHreflangReferencesRemoved = (report.unavailableHreflangReferencesRemoved || 0) + removedAlternates;
-report.remainingDependencies = ['YouTube videos (external embeds)', 'Google Maps (external embeds)', 'Regiondo booking calendars (external embeds, availability not verified)'];
-const bookingNote = 'Original Regiondo calendars preserved. A server request was denied by its anti-bot service; live booking acceptance is not verified.';
-report.notes = [...new Set([...report.notes, bookingNote])];
+report.remainingDependencies = ['YouTube videos (external embeds)', 'Google Maps (external embeds)'];
+const bookingNote = 'Booking calendar embeds were replaced with WhatsApp information links at the site owner’s request.';
+report.notes = [...new Set([...report.notes.filter(note => !note.startsWith('Original Regiondo calendars preserved.')), bookingNote])];
 await fs.writeFile(path.join(app, 'migration-report.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify({ pages: manifest.length, assets: report.assets, assetBytes: report.assetBytes, blockedEmbeds, removedAlternates, failures: report.failures.reduce((a,f)=>(a[f.error]=(a[f.error]||0)+1,a),{}) }, null, 2));

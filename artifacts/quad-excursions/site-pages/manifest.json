@@ -9,33 +9,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/login/"
   },
   {
-    "path": "/chi-siamo/",
-    "file": "cd9befd39af5b2a76bfe4d65ca9102c94a226243.html",
-    "title": "Chi Siamo | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/chi-siamo/",
-    "sourceUrl": "https://www.quadexcursions.com/chi-siamo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/chi-siamo/"
-  },
-  {
-    "path": "/registrazione/",
-    "file": "f67af251c467b560271ff8b01a24fb6a7159f51f.html",
-    "title": "Registrazione cliente | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/registrazione/",
-    "sourceUrl": "https://www.quadexcursions.com/registrazione/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/registrazione/"
-  },
-  {
-    "path": "/",
-    "file": "42099b4af021e53fd8fd4e056c2568d7c2e3ffa8.html",
-    "title": "Homepage | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/",
-    "sourceUrl": "https://www.quadexcursions.com/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/"
-  },
-  {
     "path": "/ricerca/",
     "file": "3115c168d948f07a5290c3dbbaad704b43339279.html",
     "title": "Tutti i risultati | Quad Excursions",
@@ -52,6 +25,42 @@
     "canonical": "https://www.quadexcursions.com/recupero-password/",
     "sourceUrl": "https://www.quadexcursions.com/recupero-password/",
     "sourceFinalUrl": "https://www.quadexcursions.com/recupero-password/"
+  },
+  {
+    "path": "/registrazione/",
+    "file": "f67af251c467b560271ff8b01a24fb6a7159f51f.html",
+    "title": "Registrazione cliente | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/registrazione/",
+    "sourceUrl": "https://www.quadexcursions.com/registrazione/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/registrazione/"
+  },
+  {
+    "path": "/chi-siamo/",
+    "file": "cd9befd39af5b2a76bfe4d65ca9102c94a226243.html",
+    "title": "Chi Siamo | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/chi-siamo/",
+    "sourceUrl": "https://www.quadexcursions.com/chi-siamo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/chi-siamo/"
+  },
+  {
+    "path": "/",
+    "file": "42099b4af021e53fd8fd4e056c2568d7c2e3ffa8.html",
+    "title": "Homepage | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/",
+    "sourceUrl": "https://www.quadexcursions.com/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/"
+  },
+  {
+    "path": "/prenota/",
+    "file": "2df3a56ad865a8a808bde191861ca5ee57c51087.html",
+    "title": "Prenota | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/prenota/",
+    "sourceUrl": "https://www.quadexcursions.com/prenota/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/prenota/"
   },
   {
     "path": "/blog/",
@@ -81,13 +90,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/escursioni-quad/"
   },
   {
-    "path": "/prenota/",
-    "file": "2df3a56ad865a8a808bde191861ca5ee57c51087.html",
-    "title": "Prenota | Quad Excursions",
+    "path": "/elettronica/",
+    "file": "abd698f808b35655d586616a6efa9a12d34e2812.html",
+    "title": "Elettronica | Quad Excursions",
     "lang": "it",
-    "canonical": "https://www.quadexcursions.com/prenota/",
-    "sourceUrl": "https://www.quadexcursions.com/prenota/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/prenota/"
+    "canonical": "https://www.quadexcursions.com/elettronica/",
+    "sourceUrl": "https://www.quadexcursions.com/elettronica/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/elettronica/"
   },
   {
     "path": "/merchandising/",
@@ -99,15 +108,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/"
   },
   {
-    "path": "/elettronica/",
-    "file": "abd698f808b35655d586616a6efa9a12d34e2812.html",
-    "title": "Elettronica | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/elettronica/",
-    "sourceUrl": "https://www.quadexcursions.com/elettronica/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/elettronica/"
-  },
-  {
     "path": "/merchandising/abbigliamento/",
     "file": "fffe6b8347a17041c0f0a47e78163c14c0ffdbfd.html",
     "title": "Abbigliamento | Quad Excursions",
@@ -115,6 +115,15 @@
     "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/",
     "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/",
     "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/"
+  },
+  {
+    "path": "/merchandising/abbigliamento/t-shirts/",
+    "file": "800f83f08bf99cc3d6ea8d9ddbb9b6af83e28f51.html",
+    "title": "T-shirts | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/",
+    "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/"
   },
   {
     "path": "/merchandising/abbigliamento/accessori/",
@@ -126,13 +135,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/"
   },
   {
-    "path": "/merchandising/abbigliamento/t-shirts/",
-    "file": "800f83f08bf99cc3d6ea8d9ddbb9b6af83e28f51.html",
-    "title": "T-shirts | Quad Excursions",
+    "path": "/merchandising/abbigliamento/accessori/portachivi/",
+    "file": "123dcff034af399c816110a0272142d243753617.html",
+    "title": "Portachivi | Quad Excursions",
     "lang": "it",
-    "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/",
-    "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/t-shirts/"
+    "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/"
   },
   {
     "path": "/merchandising/abbigliamento/accessori/cappellini/",
@@ -153,15 +162,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/borse/"
   },
   {
-    "path": "/merchandising/abbigliamento/accessori/portachivi/",
-    "file": "123dcff034af399c816110a0272142d243753617.html",
-    "title": "Portachivi | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/accessori/portachivi/"
-  },
-  {
     "path": "/merchandising/abbigliamento/felpe/",
     "file": "194f890d7d2d5b608687bc83251452015acb9d90.html",
     "title": "Felpe | Quad Excursions",
@@ -169,15 +169,6 @@
     "canonical": "https://www.quadexcursions.com/merchandising/abbigliamento/felpe/",
     "sourceUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/felpe/",
     "sourceFinalUrl": "https://www.quadexcursions.com/merchandising/abbigliamento/felpe/"
-  },
-  {
-    "path": "/t-shirt-logo/",
-    "file": "62e3b5912c81505cf422f749d67dfb0284b7f13e.html",
-    "title": "T-shirt logo | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/t-shirt-logo/",
-    "sourceUrl": "https://www.quadexcursions.com/t-shirt-logo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/t-shirt-logo/"
   },
   {
     "path": "/felpa-logao/",
@@ -216,13 +207,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/shopper-quad-excursions/"
   },
   {
-    "path": "/archivio/",
-    "file": "113982f93d110d8c8ee5c0506e102d6adcc6c3b6.html",
-    "title": "Archivio | Quad Excursions",
+    "path": "/t-shirt-logo/",
+    "file": "62e3b5912c81505cf422f749d67dfb0284b7f13e.html",
+    "title": "T-shirt logo | Quad Excursions",
     "lang": "it",
-    "canonical": "https://www.quadexcursions.com/archivio/",
-    "sourceUrl": "https://www.quadexcursions.com/archivio/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/archivio/"
+    "canonical": "https://www.quadexcursions.com/t-shirt-logo/",
+    "sourceUrl": "https://www.quadexcursions.com/t-shirt-logo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/t-shirt-logo/"
   },
   {
     "path": "/scooter-tour-cefalu-castelbuono/",
@@ -243,6 +234,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/escursione-cefalu-castelbuono-pranzo/"
   },
   {
+    "path": "/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "file": "aa88523db0ae11d64adcfb55dd2a0ccfac789fe7.html",
+    "title": "Escursione in Quad da 90 Minuti - Cefalù / Sant’Ambrogio - Tra Mare e Montagna | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceUrl": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
+  },
+  {
     "path": "/escursione-in-quad-da-4h-cefalu-castelbuono/",
     "file": "b258f3e188539f44d1cfb4d76e45bd985ee54132.html",
     "title": "Escursione in quad da 4H | Cefalù / Castelbuono | Quad Excursions",
@@ -252,13 +252,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/escursione-in-quad-da-4h-cefalu-castelbuono/"
   },
   {
-    "path": "/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "file": "aa88523db0ae11d64adcfb55dd2a0ccfac789fe7.html",
-    "title": "Escursione in Quad da 90 Minuti - Cefalù / Sant’Ambrogio - Tra Mare e Montagna | Quad Excursions",
+    "path": "/archivio/",
+    "file": "113982f93d110d8c8ee5c0506e102d6adcc6c3b6.html",
+    "title": "Archivio | Quad Excursions",
     "lang": "it",
-    "canonical": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceUrl": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
+    "canonical": "https://www.quadexcursions.com/archivio/",
+    "sourceUrl": "https://www.quadexcursions.com/archivio/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/archivio/"
   },
   {
     "path": "/uncategorized/",
@@ -324,15 +324,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/sportivi-quad-vantaggi-preparazione-atletica-sport-fuori-strada/"
   },
   {
-    "path": "/quad-e-atv-differenze-di-guida/",
-    "file": "eecd8136120a3344dbe72b584eb24f7b92df0583.html",
-    "title": "Quad e ATV: guida alle differenze di guida | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/",
-    "sourceUrl": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/"
-  },
-  {
     "path": "/come-prepararsi-escursione-in-quad/",
     "file": "ae78d331555232433fde99cc05b3db8a224d0b22.html",
     "title": "Come prepararsi a un’escursione in quad | Quad Excursions",
@@ -342,6 +333,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/come-prepararsi-escursione-in-quad/"
   },
   {
+    "path": "/quad-e-atv-differenze-di-guida/",
+    "file": "eecd8136120a3344dbe72b584eb24f7b92df0583.html",
+    "title": "Quad e ATV: guida alle differenze di guida | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/",
+    "sourceUrl": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/quad-e-atv-differenze-di-guida/"
+  },
+  {
     "path": "/team-building-escursione-in-quad/",
     "file": "5a619829f1a05dc8b7975ceb3b937cf8e727e0df.html",
     "title": "L’escursione in quad che può essere utile al tuo team aziendale | Quad Excursions",
@@ -349,15 +349,6 @@
     "canonical": "https://www.quadexcursions.com/team-building-escursione-in-quad/",
     "sourceUrl": "https://www.quadexcursions.com/team-building-escursione-in-quad/",
     "sourceFinalUrl": "https://www.quadexcursions.com/team-building-escursione-in-quad/"
-  },
-  {
-    "path": "/fuoristrada-in-quad-in-sicilia/",
-    "file": "7d3fcd3cc2a5cc1124781aa3564198f50c439405.html",
-    "title": "Fuoristrada in quad in Sicilia: l’inizio di un’avventura | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/",
-    "sourceUrl": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/"
   },
   {
     "path": "/patente-per-quad/",
@@ -378,6 +369,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/escursione-in-quad-offerta-pernottamento-cefalu/"
   },
   {
+    "path": "/fuoristrada-in-quad-in-sicilia/",
+    "file": "7d3fcd3cc2a5cc1124781aa3564198f50c439405.html",
+    "title": "Fuoristrada in quad in Sicilia: l’inizio di un’avventura | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/",
+    "sourceUrl": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fuoristrada-in-quad-in-sicilia/"
+  },
+  {
     "path": "/contratto-di-noleggio-di-quadriciclo/",
     "file": "b65662316aedc4af61a48c7c4dc233baf5e5e5b7.html",
     "title": "CONTRATTO DI NOLEGGIO DI QUADRICICLO | Quad Excursions",
@@ -385,6 +385,24 @@
     "canonical": "https://www.quadexcursions.com/contratto-di-noleggio-di-quadriciclo/",
     "sourceUrl": "https://www.quadexcursions.com/contratto-di-noleggio-di-quadriciclo/",
     "sourceFinalUrl": "https://www.quadexcursions.com/contratto-di-noleggio-di-quadriciclo/"
+  },
+  {
+    "path": "/en/",
+    "file": "477322a4d2fabe0f0ab43f4779f24d481fd3e86b.html",
+    "title": "Homepage | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/",
+    "sourceUrl": "https://www.quadexcursions.com/en/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/"
+  },
+  {
+    "path": "/de/",
+    "file": "1c526ad1bac1b1cce895c61f4a427529c672099d.html",
+    "title": "Startseite | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/",
+    "sourceUrl": "https://www.quadexcursions.com/de/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/"
   },
   {
     "path": "/fr/",
@@ -405,24 +423,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/customer-login/"
   },
   {
-    "path": "/de/",
-    "file": "1c526ad1bac1b1cce895c61f4a427529c672099d.html",
-    "title": "Startseite | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/",
-    "sourceUrl": "https://www.quadexcursions.com/de/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/"
-  },
-  {
-    "path": "/en/",
-    "file": "477322a4d2fabe0f0ab43f4779f24d481fd3e86b.html",
-    "title": "Homepage | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/",
-    "sourceUrl": "https://www.quadexcursions.com/en/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/"
-  },
-  {
     "path": "/es/",
     "file": "3ef4100d44f02bb6540e5afdc57b201c65ed3b7f.html",
     "title": "Portada | Quad Excursions",
@@ -441,6 +441,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/connexion-client/"
   },
   {
+    "path": "/de/kundenanmeldung/",
+    "file": "c5020d18f1abb341c985ac5b4b7684a46b32848b.html",
+    "title": "Kundenanmeldung | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/kundenanmeldung/",
+    "sourceUrl": "https://www.quadexcursions.com/de/kundenanmeldung/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/kundenanmeldung/"
+  },
+  {
     "path": "/es/iniciar-sesion-del-cliente/",
     "file": "1b9b5f6a767c4850b9af3cec40338f776eaa5f72.html",
     "title": "Iniciar sesión del cliente | Quad Excursions",
@@ -448,15 +457,6 @@
     "canonical": "https://www.quadexcursions.com/es/iniciar-sesion-del-cliente/",
     "sourceUrl": "https://www.quadexcursions.com/es/iniciar-sesion-del-cliente/",
     "sourceFinalUrl": "https://www.quadexcursions.com/es/iniciar-sesion-del-cliente/"
-  },
-  {
-    "path": "/en/password-recovery/",
-    "file": "3df87be004270d4e39f73c9a3ec1c2feee582d34.html",
-    "title": "Password Recovery | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/password-recovery/",
-    "sourceUrl": "https://www.quadexcursions.com/en/password-recovery/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/password-recovery/"
   },
   {
     "path": "/fr/recuperation-de-mot-de-passe/",
@@ -468,6 +468,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/recuperation-de-mot-de-passe/"
   },
   {
+    "path": "/en/password-recovery/",
+    "file": "3df87be004270d4e39f73c9a3ec1c2feee582d34.html",
+    "title": "Password Recovery | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/password-recovery/",
+    "sourceUrl": "https://www.quadexcursions.com/en/password-recovery/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/password-recovery/"
+  },
+  {
     "path": "/de/passwort-wiederherstellung/",
     "file": "28a501d2d684996e47813e2bc6cc3444ef196971.html",
     "title": "Passwort-Wiederherstellung | Quad Excursions",
@@ -477,33 +486,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/passwort-wiederherstellung/"
   },
   {
-    "path": "/de/kundenanmeldung/",
-    "file": "c5020d18f1abb341c985ac5b4b7684a46b32848b.html",
-    "title": "Kundenanmeldung | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/kundenanmeldung/",
-    "sourceUrl": "https://www.quadexcursions.com/de/kundenanmeldung/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/kundenanmeldung/"
-  },
-  {
-    "path": "/en/customer-registration/",
-    "file": "822fa5c35da76b0faacd01ea37917a60afa76a08.html",
-    "title": "Customer registration | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/customer-registration/",
-    "sourceUrl": "https://www.quadexcursions.com/en/customer-registration/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/customer-registration/"
-  },
-  {
-    "path": "/de/suchtitel/",
-    "file": "0e99f93a5b8e5fa876a618947a0e9dda63a65094.html",
-    "title": "{Suchtitel} | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/suchtitel/",
-    "sourceUrl": "https://www.quadexcursions.com/de/suchtitel/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/suchtitel/"
-  },
-  {
     "path": "/fr/titre-de-recherche/",
     "file": "9e882c5edbc617bde735c56cc09c410f721c624b.html",
     "title": "{titre de recherche} | Quad Excursions",
@@ -511,15 +493,6 @@
     "canonical": "https://www.quadexcursions.com/fr/titre-de-recherche/",
     "sourceUrl": "https://www.quadexcursions.com/fr/titre-de-recherche/",
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/titre-de-recherche/"
-  },
-  {
-    "path": "/es/titulo-de-busqueda/",
-    "file": "13061be1cecc97350e42deed190c6b68989ae4d2.html",
-    "title": "{título de búsqueda} | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/titulo-de-busqueda/",
-    "sourceUrl": "https://www.quadexcursions.com/es/titulo-de-busqueda/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/titulo-de-busqueda/"
   },
   {
     "path": "/es/recuperar-contrasena/",
@@ -540,6 +513,33 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/search-title/"
   },
   {
+    "path": "/de/suchtitel/",
+    "file": "0e99f93a5b8e5fa876a618947a0e9dda63a65094.html",
+    "title": "{Suchtitel} | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/suchtitel/",
+    "sourceUrl": "https://www.quadexcursions.com/de/suchtitel/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/suchtitel/"
+  },
+  {
+    "path": "/es/titulo-de-busqueda/",
+    "file": "13061be1cecc97350e42deed190c6b68989ae4d2.html",
+    "title": "{título de búsqueda} | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/titulo-de-busqueda/",
+    "sourceUrl": "https://www.quadexcursions.com/es/titulo-de-busqueda/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/titulo-de-busqueda/"
+  },
+  {
+    "path": "/en/customer-registration/",
+    "file": "822fa5c35da76b0faacd01ea37917a60afa76a08.html",
+    "title": "Customer registration | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/customer-registration/",
+    "sourceUrl": "https://www.quadexcursions.com/en/customer-registration/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/customer-registration/"
+  },
+  {
     "path": "/fr/enregistrement-client/",
     "file": "aad8e59495123c9a5e12a28f8c4553f5b35be3cb.html",
     "title": "Enregistrement client | Quad Excursions",
@@ -547,15 +547,6 @@
     "canonical": "https://www.quadexcursions.com/fr/enregistrement-client/",
     "sourceUrl": "https://www.quadexcursions.com/fr/enregistrement-client/",
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/enregistrement-client/"
-  },
-  {
-    "path": "/es/registro-de-cliente/",
-    "file": "b97f3bf9cf9a5bc4249358d1b0c863d187a9c84c.html",
-    "title": "Registro de cliente | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/registro-de-cliente/",
-    "sourceUrl": "https://www.quadexcursions.com/es/registro-de-cliente/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/registro-de-cliente/"
   },
   {
     "path": "/de/kundenregistrierung/",
@@ -576,6 +567,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/who-we-are/"
   },
   {
+    "path": "/es/registro-de-cliente/",
+    "file": "b97f3bf9cf9a5bc4249358d1b0c863d187a9c84c.html",
+    "title": "Registro de cliente | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/registro-de-cliente/",
+    "sourceUrl": "https://www.quadexcursions.com/es/registro-de-cliente/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/registro-de-cliente/"
+  },
+  {
     "path": "/fr/qui-sommes-nous/",
     "file": "9c56865c1ed977540e0faf834900916c59ec32e7.html",
     "title": "Qui sommes-nous | Quad Excursions",
@@ -594,13 +594,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/wir-ueber-uns/"
   },
   {
-    "path": "/fr/prenota/",
-    "file": "8f1f5123b8d7747408ba21cb7099c3005b9f7da9.html",
+    "path": "/en/prenota/",
+    "file": "aff9cb8e67dbdae92a177fa8b4e3514d4dfc7b43.html",
     "title": "Prenota | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/prenota/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/prenota/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/prenota/"
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/prenota/",
+    "sourceUrl": "https://www.quadexcursions.com/en/prenota/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/prenota/"
   },
   {
     "path": "/es/quienes-somos/",
@@ -621,22 +621,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/prenota/"
   },
   {
-    "path": "/en/prenota/",
-    "file": "aff9cb8e67dbdae92a177fa8b4e3514d4dfc7b43.html",
+    "path": "/fr/prenota/",
+    "file": "8f1f5123b8d7747408ba21cb7099c3005b9f7da9.html",
     "title": "Prenota | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/prenota/",
-    "sourceUrl": "https://www.quadexcursions.com/en/prenota/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/prenota/"
-  },
-  {
-    "path": "/es/reserva/",
-    "file": "f9c47627d8f19c66a71dbaecb230aace78d35f02.html",
-    "title": "Reserva | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/reserva/",
-    "sourceUrl": "https://www.quadexcursions.com/es/reserva/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/reserva/"
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/prenota/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/prenota/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/prenota/"
   },
   {
     "path": "/en/blog/",
@@ -648,22 +639,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/blog/"
   },
   {
-    "path": "/en/contact-us/",
-    "file": "e7889f909b1c0dcbe904624a67fb5db4c5c9b6c9.html",
-    "title": "Contact us | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/contact-us/",
-    "sourceUrl": "https://www.quadexcursions.com/en/contact-us/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/contact-us/"
-  },
-  {
-    "path": "/de/blog/",
-    "file": "fdbc0515987a4740fcdb78978f3e26748cbd7e46.html",
-    "title": "Blog | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/blog/",
-    "sourceUrl": "https://www.quadexcursions.com/de/blog/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/blog/"
+    "path": "/es/reserva/",
+    "file": "f9c47627d8f19c66a71dbaecb230aace78d35f02.html",
+    "title": "Reserva | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/reserva/",
+    "sourceUrl": "https://www.quadexcursions.com/es/reserva/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/reserva/"
   },
   {
     "path": "/fr/blog/",
@@ -675,6 +657,24 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/blog/"
   },
   {
+    "path": "/de/blog/",
+    "file": "fdbc0515987a4740fcdb78978f3e26748cbd7e46.html",
+    "title": "Blog | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/blog/",
+    "sourceUrl": "https://www.quadexcursions.com/de/blog/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/blog/"
+  },
+  {
+    "path": "/en/contact-us/",
+    "file": "e7889f909b1c0dcbe904624a67fb5db4c5c9b6c9.html",
+    "title": "Contact us | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/contact-us/",
+    "sourceUrl": "https://www.quadexcursions.com/en/contact-us/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/contact-us/"
+  },
+  {
     "path": "/es/blog/",
     "file": "a8ab4804c87f520ebd1deaa084d72f7f1463c0f6.html",
     "title": "Blog | Quad Excursions",
@@ -682,15 +682,6 @@
     "canonical": "https://www.quadexcursions.com/es/blog/",
     "sourceUrl": "https://www.quadexcursions.com/es/blog/",
     "sourceFinalUrl": "https://www.quadexcursions.com/es/blog/"
-  },
-  {
-    "path": "/de/kontaktiere-uns/",
-    "file": "0c9e99e0546384a34955ab17f1dc89b73c2a822b.html",
-    "title": "Kontaktiere uns. | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/kontaktiere-uns/",
-    "sourceUrl": "https://www.quadexcursions.com/de/kontaktiere-uns/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/kontaktiere-uns/"
   },
   {
     "path": "/fr/contactez-nous/",
@@ -702,6 +693,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/contactez-nous/"
   },
   {
+    "path": "/de/kontaktiere-uns/",
+    "file": "0c9e99e0546384a34955ab17f1dc89b73c2a822b.html",
+    "title": "Kontaktiere uns. | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/kontaktiere-uns/",
+    "sourceUrl": "https://www.quadexcursions.com/de/kontaktiere-uns/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/kontaktiere-uns/"
+  },
+  {
     "path": "/es/contacto/",
     "file": "afe876f068ca5621a04ed09686e08774658e9040.html",
     "title": "Contacto | Quad Excursions",
@@ -709,6 +709,15 @@
     "canonical": "https://www.quadexcursions.com/es/contacto/",
     "sourceUrl": "https://www.quadexcursions.com/es/contacto/",
     "sourceFinalUrl": "https://www.quadexcursions.com/es/contacto/"
+  },
+  {
+    "path": "/en/escursioni-quad/",
+    "file": "1c6f183e989991dfdccf5a14ff33bf1e3d62f4a2.html",
+    "title": "Escursioni Quad | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/escursioni-quad/",
+    "sourceUrl": "https://www.quadexcursions.com/en/escursioni-quad/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/escursioni-quad/"
   },
   {
     "path": "/de/escursioni-quad/",
@@ -720,13 +729,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/escursioni-quad/"
   },
   {
-    "path": "/en/escursioni-quad/",
-    "file": "1c6f183e989991dfdccf5a14ff33bf1e3d62f4a2.html",
+    "path": "/fr/escursioni-quad/",
+    "file": "7947cf22e7915f858c5da56645a8e0c507c34b1a.html",
     "title": "Escursioni Quad | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/escursioni-quad/",
-    "sourceUrl": "https://www.quadexcursions.com/en/escursioni-quad/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/escursioni-quad/"
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/escursioni-quad/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/escursioni-quad/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursioni-quad/"
   },
   {
     "path": "/es/excursiones-en-quad/",
@@ -747,22 +756,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/"
   },
   {
-    "path": "/fr/escursioni-quad/",
-    "file": "7947cf22e7915f858c5da56645a8e0c507c34b1a.html",
-    "title": "Escursioni Quad | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/escursioni-quad/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/escursioni-quad/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursioni-quad/"
-  },
-  {
-    "path": "/es/merchandising/",
-    "file": "b87d8201051b5aab7cfb1dc106583d66a11634b3.html",
+    "path": "/fr/merchandising/",
+    "file": "6f0a36d8880799741f00a4bb46d050b8eb2ecf97.html",
     "title": "Merchandising | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/merchandising/",
-    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/"
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/merchandising/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/"
   },
   {
     "path": "/en/elettronica/",
@@ -774,13 +774,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/elettronica/"
   },
   {
-    "path": "/fr/merchandising/",
-    "file": "6f0a36d8880799741f00a4bb46d050b8eb2ecf97.html",
+    "path": "/es/merchandising/",
+    "file": "b87d8201051b5aab7cfb1dc106583d66a11634b3.html",
     "title": "Merchandising | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/merchandising/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/"
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/merchandising/",
+    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/"
   },
   {
     "path": "/de/merchandising/",
@@ -810,15 +810,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/elettronica/"
   },
   {
-    "path": "/fr/merchandising/abbigliamento/",
-    "file": "b31be6aba102c52b622add87d427ff7394601008.html",
-    "title": "Abbigliamento | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/"
-  },
-  {
     "path": "/en/merchandising/abbigliamento/",
     "file": "fb2a896125efc45361c5f102378afbe339215dec.html",
     "title": "Abbigliamento | Quad Excursions",
@@ -826,15 +817,6 @@
     "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/",
     "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/",
     "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/"
-  },
-  {
-    "path": "/en/merchandising/abbigliamento/t-shirts/",
-    "file": "bd382de7947a1b1d6ca82999d2cdb3b9f4e0e40f.html",
-    "title": "T-shirts | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/",
-    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/"
   },
   {
     "path": "/de/merchandising/abbigliamento/",
@@ -846,15 +828,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/"
   },
   {
-    "path": "/es/merchandising/abbigliamento/",
-    "file": "f097ec032f7c6a92b3c6adb09b5ed25efffbc6de.html",
-    "title": "Abbigliamento | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/",
-    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/"
-  },
-  {
     "path": "/es/elettronica/",
     "file": "a38c9da4d073e5502a90c40b02854caf0595ee56.html",
     "title": "Elettronica | Quad Excursions",
@@ -864,13 +837,31 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/elettronica/"
   },
   {
-    "path": "/de/merchandising/abbigliamento/accessori/",
-    "file": "81cd22fe9c46acac9ad2028ce620fe99918697b4.html",
-    "title": "Accessori | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/",
-    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/"
+    "path": "/fr/merchandising/abbigliamento/",
+    "file": "b31be6aba102c52b622add87d427ff7394601008.html",
+    "title": "Abbigliamento | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/"
+  },
+  {
+    "path": "/es/merchandising/abbigliamento/",
+    "file": "f097ec032f7c6a92b3c6adb09b5ed25efffbc6de.html",
+    "title": "Abbigliamento | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/",
+    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/"
+  },
+  {
+    "path": "/en/merchandising/abbigliamento/t-shirts/",
+    "file": "bd382de7947a1b1d6ca82999d2cdb3b9f4e0e40f.html",
+    "title": "T-shirts | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/",
+    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/t-shirts/"
   },
   {
     "path": "/fr/merchandising/abbigliamento/t-shirts/",
@@ -882,24 +873,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/t-shirts/"
   },
   {
-    "path": "/en/merchandising/abbigliamento/accessori/",
-    "file": "ea672c6869c0eb5ea82cf820435d3dc24cf4ed86.html",
-    "title": "Accessori | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/",
-    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/"
-  },
-  {
-    "path": "/fr/merchandising/abbigliamento/accessori/",
-    "file": "ba879d878cda03bbeff51c13f02e2818f97fe162.html",
-    "title": "Accessori | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/"
-  },
-  {
     "path": "/de/merchandising/abbigliamento/t-shirts/",
     "file": "ac56f7a956bfe330bf1bd78c4f9c28365090e699.html",
     "title": "T-shirts | Quad Excursions",
@@ -907,6 +880,15 @@
     "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/t-shirts/",
     "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/t-shirts/",
     "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/t-shirts/"
+  },
+  {
+    "path": "/en/merchandising/abbigliamento/accessori/",
+    "file": "ea672c6869c0eb5ea82cf820435d3dc24cf4ed86.html",
+    "title": "Accessori | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/",
+    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/"
   },
   {
     "path": "/es/merchandising/abbigliamento/camisetas/",
@@ -918,22 +900,22 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/camisetas/"
   },
   {
-    "path": "/en/merchandising/abbigliamento/accessori/portachivi/",
-    "file": "a46563527b3c1ddf8ed697be680f6a265b07488a.html",
-    "title": "Portachivi | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/"
+    "path": "/fr/merchandising/abbigliamento/accessori/",
+    "file": "ba879d878cda03bbeff51c13f02e2818f97fe162.html",
+    "title": "Accessori | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/"
   },
   {
-    "path": "/de/merchandising/abbigliamento/accessori/portachivi/",
-    "file": "2019045ea7c9339816dcf0b494139c13330ae2b5.html",
-    "title": "Portachivi | Quad Excursions",
+    "path": "/de/merchandising/abbigliamento/accessori/",
+    "file": "81cd22fe9c46acac9ad2028ce620fe99918697b4.html",
+    "title": "Accessori | Quad Excursions",
     "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/"
+    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/",
+    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/"
   },
   {
     "path": "/es/merchandising/abbigliamento/accesorios/",
@@ -945,6 +927,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/"
   },
   {
+    "path": "/en/merchandising/abbigliamento/accessori/portachivi/",
+    "file": "a46563527b3c1ddf8ed697be680f6a265b07488a.html",
+    "title": "Portachivi | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/portachivi/"
+  },
+  {
     "path": "/fr/merchandising/abbigliamento/accessori/portachivi/",
     "file": "fbbf24a290efe416d6497f80a0aea5512f9aa025.html",
     "title": "Portachivi | Quad Excursions",
@@ -954,13 +945,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/portachivi/"
   },
   {
-    "path": "/es/merchandising/abbigliamento/accesorios/llavero/",
-    "file": "5659e92d00312760a58858aa783d2702130ab179.html",
-    "title": "Llavero | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/",
-    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/"
+    "path": "/de/merchandising/abbigliamento/accessori/portachivi/",
+    "file": "2019045ea7c9339816dcf0b494139c13330ae2b5.html",
+    "title": "Portachivi | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/accessori/portachivi/"
   },
   {
     "path": "/en/merchandising/abbigliamento/accessori/borse/",
@@ -972,22 +963,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/borse/"
   },
   {
-    "path": "/en/merchandising/abbigliamento/accessori/cappellini/",
-    "file": "f42aef2559d561269e541da3824f32a751755b9d.html",
-    "title": "Cappellini | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/",
-    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/"
-  },
-  {
-    "path": "/es/merchandising/abbigliamento/accesorios/bolsas/",
-    "file": "9817f2227783bd10500760306fc20b7e7a989ed5.html",
-    "title": "Bolsas | Quad Excursions",
+    "path": "/es/merchandising/abbigliamento/accesorios/llavero/",
+    "file": "5659e92d00312760a58858aa783d2702130ab179.html",
+    "title": "Llavero | Quad Excursions",
     "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/",
-    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/"
+    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/",
+    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/llavero/"
   },
   {
     "path": "/de/merchandising/abbigliamento/accessori/borse/",
@@ -1006,6 +988,24 @@
     "canonical": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/borse/",
     "sourceUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/borse/",
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/merchandising/abbigliamento/accessori/borse/"
+  },
+  {
+    "path": "/es/merchandising/abbigliamento/accesorios/bolsas/",
+    "file": "9817f2227783bd10500760306fc20b7e7a989ed5.html",
+    "title": "Bolsas | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/",
+    "sourceUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/bolsas/"
+  },
+  {
+    "path": "/en/merchandising/abbigliamento/accessori/cappellini/",
+    "file": "f42aef2559d561269e541da3824f32a751755b9d.html",
+    "title": "Cappellini | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/",
+    "sourceUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/accessori/cappellini/"
   },
   {
     "path": "/de/merchandising/abbigliamento/accessori/cappellini/",
@@ -1035,15 +1035,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/accesorios/gorras/"
   },
   {
-    "path": "/de/merchandising/abbigliamento/felpe/",
-    "file": "61dba48ddf023fb17f93fed93325d7dab7e246d7.html",
-    "title": "Felpe | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/",
-    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/"
-  },
-  {
     "path": "/fr/merchandising/abbigliamento/felpe/",
     "file": "f4102cbf245bcc73f009f7a13606abd8e6ca652c.html",
     "title": "Felpe | Quad Excursions",
@@ -1062,13 +1053,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/merchandising/abbigliamento/felpe/"
   },
   {
-    "path": "/en/t-shirt-logo/",
-    "file": "de58c7b9b018fa479ab94a764bf78cb0cb0781a5.html",
-    "title": "T-shirt logo | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/t-shirt-logo/",
-    "sourceUrl": "https://www.quadexcursions.com/en/t-shirt-logo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/t-shirt-logo/"
+    "path": "/de/merchandising/abbigliamento/felpe/",
+    "file": "61dba48ddf023fb17f93fed93325d7dab7e246d7.html",
+    "title": "Felpe | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/",
+    "sourceUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/merchandising/abbigliamento/felpe/"
   },
   {
     "path": "/es/merchandising/abbigliamento/sudaderas/",
@@ -1080,13 +1071,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/merchandising/abbigliamento/sudaderas/"
   },
   {
-    "path": "/en/sweatshirt-logao/",
-    "file": "30a4563c88dfebf13321d2479168ef46c3521a32.html",
-    "title": "Sweatshirt Logao | Quad Excursions",
+    "path": "/en/t-shirt-logo/",
+    "file": "de58c7b9b018fa479ab94a764bf78cb0cb0781a5.html",
+    "title": "T-shirt logo | Quad Excursions",
     "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/sweatshirt-logao/",
-    "sourceUrl": "https://www.quadexcursions.com/en/sweatshirt-logao/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/sweatshirt-logao/"
+    "canonical": "https://www.quadexcursions.com/en/t-shirt-logo/",
+    "sourceUrl": "https://www.quadexcursions.com/en/t-shirt-logo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/t-shirt-logo/"
   },
   {
     "path": "/es/camiseta-con-logo/",
@@ -1098,24 +1089,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/camiseta-con-logo/"
   },
   {
-    "path": "/fr/sweat-shirt-logao/",
-    "file": "1daf3bee7bd1768d95fd5884250356ec38b7f8d1.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/sweat-shirt-logao/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/sweat-shirt-logao/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/sweat-shirt-logao/"
-  },
-  {
-    "path": "/de/sweatshirt-logao/",
-    "file": "afbf49bf3180c5929b2bb9aff82fd51ea7a0a41c.html",
-    "title": "Sweatshirt Logao | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/sweatshirt-logao/",
-    "sourceUrl": "https://www.quadexcursions.com/de/sweatshirt-logao/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/sweatshirt-logao/"
-  },
-  {
     "path": "/es/felpa-logao/",
     "file": "828487f369ace7b1d45dfd9eec4d6e7c0fe8b596.html",
     "title": "Felpa Logao | Quad Excursions",
@@ -1123,6 +1096,24 @@
     "canonical": "https://www.quadexcursions.com/es/felpa-logao/",
     "sourceUrl": "https://www.quadexcursions.com/es/felpa-logao/",
     "sourceFinalUrl": "https://www.quadexcursions.com/es/felpa-logao/"
+  },
+  {
+    "path": "/en/sweatshirt-logao/",
+    "file": "30a4563c88dfebf13321d2479168ef46c3521a32.html",
+    "title": "Sweatshirt Logao | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/sweatshirt-logao/",
+    "sourceUrl": "https://www.quadexcursions.com/en/sweatshirt-logao/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/sweatshirt-logao/"
+  },
+  {
+    "path": "/fr/sweat-shirt-logao/",
+    "file": "1daf3bee7bd1768d95fd5884250356ec38b7f8d1.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/sweat-shirt-logao/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/sweat-shirt-logao/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/sweat-shirt-logao/"
   },
   {
     "path": "/en/voucher/",
@@ -1134,13 +1125,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/voucher/"
   },
   {
-    "path": "/es/excursiones-en-quad-para-compradores/",
-    "file": "f9a72e27bad600552fd80711070b9d6d0cbebdbe.html",
-    "title": "Excursiones en Quad para Compradores | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/",
-    "sourceUrl": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/"
+    "path": "/de/sweatshirt-logao/",
+    "file": "afbf49bf3180c5929b2bb9aff82fd51ea7a0a41c.html",
+    "title": "Sweatshirt Logao | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/sweatshirt-logao/",
+    "sourceUrl": "https://www.quadexcursions.com/de/sweatshirt-logao/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/sweatshirt-logao/"
   },
   {
     "path": "/de/gutschein/",
@@ -1170,15 +1161,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/gift-box/"
   },
   {
-    "path": "/es/caja-de-regalo/",
-    "file": "804b8231edae7b12f41b7129e05cfc0a72230b44.html",
-    "title": "Caja de regalo | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/caja-de-regalo/",
-    "sourceUrl": "https://www.quadexcursions.com/es/caja-de-regalo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/caja-de-regalo/"
-  },
-  {
     "path": "/es/vale/",
     "file": "b06491e22feb8cfda56fdb477e63e13522ab9866.html",
     "title": "Vale | Quad Excursions",
@@ -1188,31 +1170,22 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/vale/"
   },
   {
-    "path": "/en/escursione-cefalu-castelbuono-pranzo/",
-    "file": "af7fe0c9e48f7ddd892feeb25bba2ced35e7805b.html",
-    "title": "Cefalù Castelbuono excursions + Lunch | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/",
-    "sourceUrl": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/"
-  },
-  {
-    "path": "/fr/escursione-cefalu-castelbuono-pranzo/",
-    "file": "b5eb1c46228a50b8fbf73270d3169768a3713489.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/"
-  },
-  {
-    "path": "/es/scooter-tour-cefalu-castelbuono/",
-    "file": "07dfe341216385d066a125c1c57de3661c304f9a.html",
-    "title": "Excursión en scooter Cefalù -> Castelbuono | Quad Excursions",
+    "path": "/es/caja-de-regalo/",
+    "file": "804b8231edae7b12f41b7129e05cfc0a72230b44.html",
+    "title": "Caja de regalo | Quad Excursions",
     "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/",
-    "sourceUrl": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/"
+    "canonical": "https://www.quadexcursions.com/es/caja-de-regalo/",
+    "sourceUrl": "https://www.quadexcursions.com/es/caja-de-regalo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/caja-de-regalo/"
+  },
+  {
+    "path": "/es/excursiones-en-quad-para-compradores/",
+    "file": "f9a72e27bad600552fd80711070b9d6d0cbebdbe.html",
+    "title": "Excursiones en Quad para Compradores | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/",
+    "sourceUrl": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/excursiones-en-quad-para-compradores/"
   },
   {
     "path": "/en/scooter-tour-cefalu-castelbuono/",
@@ -1224,13 +1197,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/scooter-tour-cefalu-castelbuono/"
   },
   {
-    "path": "/de/scooter-tour-cefalu-castelbuono/",
-    "file": "66d465440d511d21a541afcdf74cb676b43469b0.html",
-    "title": "Motorroller Tour Cefalù -> Castelbuono | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/",
-    "sourceUrl": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/"
+    "path": "/es/scooter-tour-cefalu-castelbuono/",
+    "file": "07dfe341216385d066a125c1c57de3661c304f9a.html",
+    "title": "Excursión en scooter Cefalù -> Castelbuono | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/",
+    "sourceUrl": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/scooter-tour-cefalu-castelbuono/"
   },
   {
     "path": "/fr/scooter-tour-cefalu-castelbuono/",
@@ -1242,6 +1215,33 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/scooter-tour-cefalu-castelbuono/"
   },
   {
+    "path": "/fr/escursione-cefalu-castelbuono-pranzo/",
+    "file": "b5eb1c46228a50b8fbf73270d3169768a3713489.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-cefalu-castelbuono-pranzo/"
+  },
+  {
+    "path": "/en/escursione-cefalu-castelbuono-pranzo/",
+    "file": "af7fe0c9e48f7ddd892feeb25bba2ced35e7805b.html",
+    "title": "Cefalù Castelbuono excursions + Lunch | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/",
+    "sourceUrl": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/escursione-cefalu-castelbuono-pranzo/"
+  },
+  {
+    "path": "/de/scooter-tour-cefalu-castelbuono/",
+    "file": "66d465440d511d21a541afcdf74cb676b43469b0.html",
+    "title": "Motorroller Tour Cefalù -> Castelbuono | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/",
+    "sourceUrl": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/scooter-tour-cefalu-castelbuono/"
+  },
+  {
     "path": "/en/escursione-in-quad-da-4h-cefalu-castelbuono/",
     "file": "7cd4639cabddf373ed2af8baf924c1e6bdc478a5.html",
     "title": "ATV excursion from 4H | Cefalù / Castelbuono | Quad Excursions",
@@ -1249,42 +1249,6 @@
     "canonical": "https://www.quadexcursions.com/en/escursione-in-quad-da-4h-cefalu-castelbuono/",
     "sourceUrl": "https://www.quadexcursions.com/en/escursione-in-quad-da-4h-cefalu-castelbuono/",
     "sourceFinalUrl": "https://www.quadexcursions.com/en/escursione-in-quad-da-4h-cefalu-castelbuono/"
-  },
-  {
-    "path": "/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "file": "a22a62197a86c34522e15dc1d79a013f8b07bbe7.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/"
-  },
-  {
-    "path": "/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "file": "0f44906860259f709f8b924e3e35f534ff5b4607.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
-  },
-  {
-    "path": "/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "file": "11de685eb8dca679528151d92068c47636b44132.html",
-    "title": "90-Minute ATV Excursion - Cefalù / Sant'Ambrogio - Between Sea and Mountain | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceUrl": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
-  },
-  {
-    "path": "/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "file": "5eec0e6051d1195a0afb1cc8676b8551b6c688c1.html",
-    "title": "4H excursión en quad | Cefalù / Castelbuono | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "sourceUrl": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/"
   },
   {
     "path": "/de/escursione-in-quad-da-4h-cefalu-castelbuono/",
@@ -1296,13 +1260,49 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/escursione-in-quad-da-4h-cefalu-castelbuono/"
   },
   {
-    "path": "/fr/archivio/",
-    "file": "3929db41226f79bc9a6569c9e0f75d9eb0309c19.html",
-    "title": "Archivio | Quad Excursions",
+    "path": "/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "file": "5eec0e6051d1195a0afb1cc8676b8551b6c688c1.html",
+    "title": "4H excursión en quad | Cefalù / Castelbuono | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "sourceUrl": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/escursione-in-quad-da-4h-cefalu-castelbuono/"
+  },
+  {
+    "path": "/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "file": "a22a62197a86c34522e15dc1d79a013f8b07bbe7.html",
+    "title": "{titre du produit} | Quad Excursions",
     "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/archivio/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/archivio/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/archivio/"
+    "canonical": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-da-4h-cefalu-castelbuono/"
+  },
+  {
+    "path": "/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "file": "11de685eb8dca679528151d92068c47636b44132.html",
+    "title": "90-Minute ATV Excursion - Cefalù / Sant'Ambrogio - Between Sea and Mountain | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceUrl": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
+  },
+  {
+    "path": "/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "file": "0f44906860259f709f8b924e3e35f534ff5b4607.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
+  },
+  {
+    "path": "/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "file": "93c9771459a29fdb8d36a3a36e280effa8235e0d.html",
+    "title": "90-Minuten-Quadbike-Ausflug - Cefalù / Sant'Ambrogio - Zwischen Meer und Bergen | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceUrl": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
   },
   {
     "path": "/es/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
@@ -1323,13 +1323,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/archivio/"
   },
   {
-    "path": "/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "file": "93c9771459a29fdb8d36a3a36e280effa8235e0d.html",
-    "title": "90-Minuten-Quadbike-Ausflug - Cefalù / Sant'Ambrogio - Zwischen Meer und Bergen | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceUrl": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/emozioni-in-quad-da-cefalu-a-sant-ambrogio-90h/"
+    "path": "/fr/archivio/",
+    "file": "3929db41226f79bc9a6569c9e0f75d9eb0309c19.html",
+    "title": "Archivio | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/archivio/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/archivio/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/archivio/"
   },
   {
     "path": "/es/archivio/",
@@ -1359,22 +1359,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/uncategorized/"
   },
   {
-    "path": "/en/quad-atv-history-decades-adrenaline/",
-    "file": "fb93ae45a717b49f356c9dde64595767f88b13a4.html",
-    "title": "Quad and ATV: history and decades of adrenaline | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/",
-    "sourceUrl": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/"
-  },
-  {
-    "path": "/es/uncategorized/",
-    "file": "58d23b2bef92cd83d7659f24c508d1c8ed519caf.html",
+    "path": "/de/uncategorized/",
+    "file": "72953874dafc1afc39f4fd3aac57c98a8e84734a.html",
     "title": "Uncategorized | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/uncategorized/",
-    "sourceUrl": "https://www.quadexcursions.com/es/uncategorized/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/uncategorized/"
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/uncategorized/",
+    "sourceUrl": "https://www.quadexcursions.com/de/uncategorized/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/uncategorized/"
   },
   {
     "path": "/fr/uncategorized/",
@@ -1386,13 +1377,22 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/uncategorized/"
   },
   {
-    "path": "/de/uncategorized/",
-    "file": "72953874dafc1afc39f4fd3aac57c98a8e84734a.html",
+    "path": "/es/uncategorized/",
+    "file": "58d23b2bef92cd83d7659f24c508d1c8ed519caf.html",
     "title": "Uncategorized | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/uncategorized/",
-    "sourceUrl": "https://www.quadexcursions.com/de/uncategorized/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/uncategorized/"
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/uncategorized/",
+    "sourceUrl": "https://www.quadexcursions.com/es/uncategorized/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/uncategorized/"
+  },
+  {
+    "path": "/en/quad-atv-history-decades-adrenaline/",
+    "file": "fb93ae45a717b49f356c9dde64595767f88b13a4.html",
+    "title": "Quad and ATV: history and decades of adrenaline | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/",
+    "sourceUrl": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/quad-atv-history-decades-adrenaline/"
   },
   {
     "path": "/fr/quad-atv-storia-decenni-adrenalina/",
@@ -1413,13 +1413,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/quad-atv-geschichte-jahrzehnte-adrenalin/"
   },
   {
-    "path": "/es/quad-for-dummies-aprender-a-conducir-un-quad/",
-    "file": "b3fbf58b3d7001c18606b370dd20cb1e3201a64e.html",
-    "title": "Quad para principiantes: así comienza una nueva pasión. | Quad Excursions",
+    "path": "/es/quad-atv-storia-decenni-adrenalina/",
+    "file": "01e11dad5ba1ed803c2c5215ea1d5f92ac7927ac.html",
+    "title": "Quad y ATV: historia y décadas de adrenalina | Quad Excursions",
     "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/",
-    "sourceUrl": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/"
+    "canonical": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/",
+    "sourceUrl": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/"
   },
   {
     "path": "/en/quad-for-dummies-learn-how-to-drive-the-quad/",
@@ -1431,31 +1431,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/quad-for-dummies-learn-how-to-drive-the-quad/"
   },
   {
-    "path": "/es/quad-atv-storia-decenni-adrenalina/",
-    "file": "01e11dad5ba1ed803c2c5215ea1d5f92ac7927ac.html",
-    "title": "Quad y ATV: historia y décadas de adrenalina | Quad Excursions",
+    "path": "/es/quad-for-dummies-aprender-a-conducir-un-quad/",
+    "file": "b3fbf58b3d7001c18606b370dd20cb1e3201a64e.html",
+    "title": "Quad para principiantes: así comienza una nueva pasión. | Quad Excursions",
     "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/",
-    "sourceUrl": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/quad-atv-storia-decenni-adrenalina/"
-  },
-  {
-    "path": "/es/como-vestir-para-excursion-en-cuadriciclo/",
-    "file": "7c1b9f42b8e0349bcfae71fc329a3d29e1188fd6.html",
-    "title": "Cómo vestirse para una excursión en quad | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/",
-    "sourceUrl": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/"
-  },
-  {
-    "path": "/en/insurance-quad-stipula-maximum-security/",
-    "file": "3ef36e742e6444895ea20fe10f3bb068ff47192c.html",
-    "title": "Insurance quad: what to check when signing for maximum security? | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/",
-    "sourceUrl": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/"
+    "canonical": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/",
+    "sourceUrl": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/quad-for-dummies-aprender-a-conducir-un-quad/"
   },
   {
     "path": "/en/how-to-dress-for-quad-excursion/",
@@ -1476,6 +1458,24 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/come-vestirsi-escursione-quad/"
   },
   {
+    "path": "/es/como-vestir-para-excursion-en-cuadriciclo/",
+    "file": "7c1b9f42b8e0349bcfae71fc329a3d29e1188fd6.html",
+    "title": "Cómo vestirse para una excursión en quad | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/",
+    "sourceUrl": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/como-vestir-para-excursion-en-cuadriciclo/"
+  },
+  {
+    "path": "/en/insurance-quad-stipula-maximum-security/",
+    "file": "3ef36e742e6444895ea20fe10f3bb068ff47192c.html",
+    "title": "Insurance quad: what to check when signing for maximum security? | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/",
+    "sourceUrl": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/insurance-quad-stipula-maximum-security/"
+  },
+  {
     "path": "/de/tecnicas-de-guia-quad-atencion-en-el-sillin/",
     "file": "364fa8e0e914cc770b813f67fa0bb48b4e136fa7.html",
     "title": "Fahrtechniken auf dem Quad: Worauf man beim Fahren achten sollte | Quad Excursions",
@@ -1485,15 +1485,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/tecnicas-de-guia-quad-atencion-en-el-sillin/"
   },
   {
-    "path": "/fr/tecniche-guida-quad-attenzione-in-sella/",
-    "file": "37259452dd7de12f5caf871662ab5901e7e3f26c.html",
-    "title": "{titre de l'article} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/"
-  },
-  {
     "path": "/en/tecniche-guida-quad-attenzione-in-sella/",
     "file": "f4f48290cab187feac05b104bc19c39473099473.html",
     "title": "Quad riding techniques: what to pay attention to while in the saddle | Quad Excursions",
@@ -1501,6 +1492,15 @@
     "canonical": "https://www.quadexcursions.com/en/tecniche-guida-quad-attenzione-in-sella/",
     "sourceUrl": "https://www.quadexcursions.com/en/tecniche-guida-quad-attenzione-in-sella/",
     "sourceFinalUrl": "https://www.quadexcursions.com/en/tecniche-guida-quad-attenzione-in-sella/"
+  },
+  {
+    "path": "/fr/tecniche-guida-quad-attenzione-in-sella/",
+    "file": "37259452dd7de12f5caf871662ab5901e7e3f26c.html",
+    "title": "{titre de l'article} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/tecniche-guida-quad-attenzione-in-sella/"
   },
   {
     "path": "/en/sports-quad-benefits-athletic-preparation-off-road-sports/",
@@ -1539,13 +1539,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/off-road-quad-in-sicily/"
   },
   {
-    "path": "/fr/fuoristrada-en-quad-en-sicile/",
-    "file": "6b06d9160bef7180367e4ed92fcd4626a8575fee.html",
-    "title": "{titre de l'article} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/"
+    "path": "/de/fuoristrada-in-quad-in-sicilia/",
+    "file": "f94ce5bb337bb0e14cdce9627ed42fe1783ef527.html",
+    "title": "Geländefahren mit dem Quad in Sizilien: Der Beginn eines Abenteuers. | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/",
+    "sourceUrl": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/"
   },
   {
     "path": "/es/fuoristrada-en-quad-en-sicilia/",
@@ -1557,22 +1557,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/fuoristrada-en-quad-en-sicilia/"
   },
   {
-    "path": "/de/fuoristrada-in-quad-in-sicilia/",
-    "file": "f94ce5bb337bb0e14cdce9627ed42fe1783ef527.html",
-    "title": "Geländefahren mit dem Quad in Sizilien: Der Beginn eines Abenteuers. | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/",
-    "sourceUrl": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/fuoristrada-in-quad-in-sicilia/"
-  },
-  {
-    "path": "/en/quad-and-atv-driving-differences/",
-    "file": "8fe606f84a2ce599797641a6be8d5c6de610f31a.html",
-    "title": "Quad and ATV: a guide to driving differences | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/",
-    "sourceUrl": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/"
+    "path": "/fr/fuoristrada-en-quad-en-sicile/",
+    "file": "6b06d9160bef7180367e4ed92fcd4626a8575fee.html",
+    "title": "{titre de l'article} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/fuoristrada-en-quad-en-sicile/"
   },
   {
     "path": "/en/team-building-quad-excursion/",
@@ -1584,13 +1575,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/team-building-quad-excursion/"
   },
   {
-    "path": "/fr/quad-et-atv-differences-de-conduite/",
-    "file": "d33c0fac245b11ec068592483435c4664ae7f495.html",
-    "title": "{titre de l'article} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/"
+    "path": "/en/quad-and-atv-driving-differences/",
+    "file": "8fe606f84a2ce599797641a6be8d5c6de610f31a.html",
+    "title": "Quad and ATV: a guide to driving differences | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/",
+    "sourceUrl": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/quad-and-atv-driving-differences/"
   },
   {
     "path": "/fr/team-building-excursion-en-quad/",
@@ -1602,13 +1593,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/fr/team-building-excursion-en-quad/"
   },
   {
-    "path": "/en/hiking-tour-quad-offer-overnight-cefalu/",
-    "file": "057e0325101fe377a5595587cdb378d81e6bf45f.html",
-    "title": "Quad excursion: offer x2 + overnight stay in Cefalù. | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/",
-    "sourceUrl": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/"
+    "path": "/fr/quad-et-atv-differences-de-conduite/",
+    "file": "d33c0fac245b11ec068592483435c4664ae7f495.html",
+    "title": "{titre de l'article} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/quad-et-atv-differences-de-conduite/"
   },
   {
     "path": "/de/quad-und-atv-fahrunterschiede/",
@@ -1620,15 +1611,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/quad-und-atv-fahrunterschiede/"
   },
   {
-    "path": "/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
-    "file": "1edc914e9e02e2dda311fd0dfd5552a2fbd2150e.html",
-    "title": "{titre de l'article} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/"
-  },
-  {
     "path": "/de/escursione-in-quad-offerta-pernottamento-cefalu/",
     "file": "8d7ca0d1fa6256c9e7dc85d53e5c198854090416.html",
     "title": "Quad-Tour: Angebot x2 + Übernachtung in Cefalù | Quad Excursions",
@@ -1636,6 +1618,24 @@
     "canonical": "https://www.quadexcursions.com/de/escursione-in-quad-offerta-pernottamento-cefalu/",
     "sourceUrl": "https://www.quadexcursions.com/de/escursione-in-quad-offerta-pernottamento-cefalu/",
     "sourceFinalUrl": "https://www.quadexcursions.com/de/escursione-in-quad-offerta-pernottamento-cefalu/"
+  },
+  {
+    "path": "/en/hiking-tour-quad-offer-overnight-cefalu/",
+    "file": "057e0325101fe377a5595587cdb378d81e6bf45f.html",
+    "title": "Quad excursion: offer x2 + overnight stay in Cefalù. | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/",
+    "sourceUrl": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/hiking-tour-quad-offer-overnight-cefalu/"
+  },
+  {
+    "path": "/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
+    "file": "1edc914e9e02e2dda311fd0dfd5552a2fbd2150e.html",
+    "title": "{titre de l'article} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/escursione-in-quad-offerta-pernottamento-cefalu/"
   },
   {
     "path": "/es/quad-e-atv-differenze-di-guida/",
@@ -1674,15 +1674,6 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/patente-per-quad/"
   },
   {
-    "path": "/checkout/",
-    "file": "b9712fdc007c2dade05e9bddad5665dbec2d7bfa.html",
-    "title": "Checkout | Quad Excursions",
-    "lang": "it",
-    "canonical": "https://www.quadexcursions.com/checkout/",
-    "sourceUrl": "https://www.quadexcursions.com/checkout/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/checkout/"
-  },
-  {
     "path": "/privacy-policy",
     "file": "39ce28de9b50bdd8e2ed50c663c858034ec06c2f.html",
     "title": "Privacy Policy | Quad Excursions",
@@ -1692,67 +1683,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/privacy-policy/"
   },
   {
-    "path": "/fr/gift-box/",
-    "file": "d5854e45a7895671e91fdd8b616639d84f492790.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/gift-box/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/gift-box/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/gift-box/"
-  },
-  {
-    "path": "/fr/paiement/",
-    "file": "17ea1388df8b0c419c88c0bfa8601fa9158bee8f.html",
-    "title": "Paiement | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/paiement/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/paiement/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/paiement/"
-  },
-  {
-    "path": "/fr/politique-de-cookies/",
-    "file": "06976d58fcf4c25c62fd5d3c1105f4ee4cb47d72.html",
-    "title": "Politique de cookies | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/politique-de-cookies/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/politique-de-cookies/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/politique-de-cookies/"
-  },
-  {
-    "path": "/fr/privacy-policy/",
-    "file": "00f78b46ca50e6b9f0ef546f4ff1a7959540e7a2.html",
-    "title": "Privacy Policy | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/privacy-policy/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/privacy-policy/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/privacy-policy/"
-  },
-  {
-    "path": "/fr/shopper-quad-excursions/",
-    "file": "6f112769731b488ed06a423ec5a73ca33400d8b9.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/shopper-quad-excursions/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/shopper-quad-excursions/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/shopper-quad-excursions/"
-  },
-  {
-    "path": "/fr/privacy-policy",
-    "file": "cf7824bf43ee161a37cbc8ac59cf5c2116634f70.html",
-    "title": "Privacy Policy | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/privacy-policy/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/privacy-policy",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/privacy-policy/"
-  },
-  {
-    "path": "/en/cookie-policy/",
-    "file": "c686511bfff3859c3b2a5ecd41046419a0f1d9c7.html",
-    "title": "Cookie Policy | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/cookie-policy/",
-    "sourceUrl": "https://www.quadexcursions.com/en/cookie-policy/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/cookie-policy/"
+    "path": "/checkout/",
+    "file": "b9712fdc007c2dade05e9bddad5665dbec2d7bfa.html",
+    "title": "Checkout | Quad Excursions",
+    "lang": "it",
+    "canonical": "https://www.quadexcursions.com/checkout/",
+    "sourceUrl": "https://www.quadexcursions.com/checkout/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/checkout/"
   },
   {
     "path": "/en/checkout/",
@@ -1764,21 +1701,30 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/checkout/"
   },
   {
-    "path": "/en/privacy-policy",
-    "file": "1eeb5878054f2944652e88c25b21de490ac45b2e.html",
-    "title": "Privacy Policy | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/privacy-policy/",
-    "sourceUrl": "https://www.quadexcursions.com/en/privacy-policy",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/privacy-policy/"
-  },
-  {
     "path": "/en/privacy-policy/",
     "file": "12956d4e361994ea01cbf24b61926ce9ec6e2adb.html",
     "title": "Privacy Policy | Quad Excursions",
     "lang": "en",
     "canonical": "https://www.quadexcursions.com/en/privacy-policy/",
     "sourceUrl": "https://www.quadexcursions.com/en/privacy-policy/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/privacy-policy/"
+  },
+  {
+    "path": "/en/shopper-quad-excursions/",
+    "file": "3e09bb14c558886379ee1e9d581456a3fbecf3d4.html",
+    "title": "Shopper Quad Excursions | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/shopper-quad-excursions/",
+    "sourceUrl": "https://www.quadexcursions.com/en/shopper-quad-excursions/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/shopper-quad-excursions/"
+  },
+  {
+    "path": "/en/privacy-policy",
+    "file": "1eeb5878054f2944652e88c25b21de490ac45b2e.html",
+    "title": "Privacy Policy | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/privacy-policy/",
+    "sourceUrl": "https://www.quadexcursions.com/en/privacy-policy",
     "sourceFinalUrl": "https://www.quadexcursions.com/en/privacy-policy/"
   },
   {
@@ -1791,6 +1737,15 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/kasse/"
   },
   {
+    "path": "/en/cookie-policy/",
+    "file": "c686511bfff3859c3b2a5ecd41046419a0f1d9c7.html",
+    "title": "Cookie Policy | Quad Excursions",
+    "lang": "en",
+    "canonical": "https://www.quadexcursions.com/en/cookie-policy/",
+    "sourceUrl": "https://www.quadexcursions.com/en/cookie-policy/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/en/cookie-policy/"
+  },
+  {
     "path": "/de/datenschutzerklaerung/",
     "file": "7f7c02e39f6ba4793148ad6686c93c14fefd816c.html",
     "title": "Datenschutzerklärung | Quad Excursions",
@@ -1798,15 +1753,6 @@
     "canonical": "https://www.quadexcursions.com/de/datenschutzerklaerung/",
     "sourceUrl": "https://www.quadexcursions.com/de/datenschutzerklaerung/",
     "sourceFinalUrl": "https://www.quadexcursions.com/de/datenschutzerklaerung/"
-  },
-  {
-    "path": "/es/finalizar-compra/",
-    "file": "b6f53d998c7c0f9752472104c073a4cf3435bc24.html",
-    "title": "Finalizar compra | Quad Excursions",
-    "lang": "es",
-    "canonical": "https://www.quadexcursions.com/es/finalizar-compra/",
-    "sourceUrl": "https://www.quadexcursions.com/es/finalizar-compra/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/es/finalizar-compra/"
   },
   {
     "path": "/de/gift-box/",
@@ -1827,13 +1773,13 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/shopper-quad-excursions/"
   },
   {
-    "path": "/en/shopper-quad-excursions/",
-    "file": "3e09bb14c558886379ee1e9d581456a3fbecf3d4.html",
-    "title": "Shopper Quad Excursions | Quad Excursions",
-    "lang": "en",
-    "canonical": "https://www.quadexcursions.com/en/shopper-quad-excursions/",
-    "sourceUrl": "https://www.quadexcursions.com/en/shopper-quad-excursions/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/en/shopper-quad-excursions/"
+    "path": "/de/cookie-richtlinie/",
+    "file": "dd19240c3725fb05b2573bf7595af00eef116342.html",
+    "title": "Cookie-Richtlinie | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/cookie-richtlinie/",
+    "sourceUrl": "https://www.quadexcursions.com/de/cookie-richtlinie/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/cookie-richtlinie/"
   },
   {
     "path": "/de/privacy-policy",
@@ -1845,31 +1791,67 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/de/datenschutzerklaerung/"
   },
   {
-    "path": "/de/cookie-richtlinie/",
-    "file": "dd19240c3725fb05b2573bf7595af00eef116342.html",
-    "title": "Cookie-Richtlinie | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/cookie-richtlinie/",
-    "sourceUrl": "https://www.quadexcursions.com/de/cookie-richtlinie/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/cookie-richtlinie/"
-  },
-  {
-    "path": "/de",
-    "file": "7b63e9ddf7c9669ad790608139cb991322fad23e.html",
-    "title": "Startseite | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/",
-    "sourceUrl": "https://www.quadexcursions.com/de",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/"
-  },
-  {
-    "path": "/fr",
-    "file": "c2508f6bca990ff539c421277eb2de772c5f2c22.html",
-    "title": "Accueil | Quad Excursions",
+    "path": "/fr/paiement/",
+    "file": "17ea1388df8b0c419c88c0bfa8601fa9158bee8f.html",
+    "title": "Paiement | Quad Excursions",
     "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/",
-    "sourceUrl": "https://www.quadexcursions.com/fr",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/"
+    "canonical": "https://www.quadexcursions.com/fr/paiement/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/paiement/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/paiement/"
+  },
+  {
+    "path": "/fr/shopper-quad-excursions/",
+    "file": "6f112769731b488ed06a423ec5a73ca33400d8b9.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/shopper-quad-excursions/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/shopper-quad-excursions/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/shopper-quad-excursions/"
+  },
+  {
+    "path": "/fr/privacy-policy/",
+    "file": "00f78b46ca50e6b9f0ef546f4ff1a7959540e7a2.html",
+    "title": "Privacy Policy | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/privacy-policy/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/privacy-policy/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/privacy-policy/"
+  },
+  {
+    "path": "/fr/gift-box/",
+    "file": "d5854e45a7895671e91fdd8b616639d84f492790.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/gift-box/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/gift-box/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/gift-box/"
+  },
+  {
+    "path": "/fr/privacy-policy",
+    "file": "cf7824bf43ee161a37cbc8ac59cf5c2116634f70.html",
+    "title": "Privacy Policy | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/privacy-policy/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/privacy-policy",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/privacy-policy/"
+  },
+  {
+    "path": "/fr/politique-de-cookies/",
+    "file": "06976d58fcf4c25c62fd5d3c1105f4ee4cb47d72.html",
+    "title": "Politique de cookies | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/politique-de-cookies/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/politique-de-cookies/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/politique-de-cookies/"
+  },
+  {
+    "path": "/es/finalizar-compra/",
+    "file": "b6f53d998c7c0f9752472104c073a4cf3435bc24.html",
+    "title": "Finalizar compra | Quad Excursions",
+    "lang": "es",
+    "canonical": "https://www.quadexcursions.com/es/finalizar-compra/",
+    "sourceUrl": "https://www.quadexcursions.com/es/finalizar-compra/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/es/finalizar-compra/"
   },
   {
     "path": "/es/politica-de-privacidad/",
@@ -1899,13 +1881,22 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/es/cookie-policy/"
   },
   {
-    "path": "/de/t-shirt-logo/",
-    "file": "031478bfa3d19cedf15cf48d031647b0c0a8c2d0.html",
-    "title": "T-shirt logo | Quad Excursions",
-    "lang": "de",
-    "canonical": "https://www.quadexcursions.com/de/t-shirt-logo/",
-    "sourceUrl": "https://www.quadexcursions.com/de/t-shirt-logo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/de/t-shirt-logo/"
+    "path": "/fr",
+    "file": "c2508f6bca990ff539c421277eb2de772c5f2c22.html",
+    "title": "Accueil | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/",
+    "sourceUrl": "https://www.quadexcursions.com/fr",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/"
+  },
+  {
+    "path": "/fr/t-shirt-logo/",
+    "file": "36b3131c2324b5af8480b7e1be69ee4e737f33d7.html",
+    "title": "{titre du produit} | Quad Excursions",
+    "lang": "fr",
+    "canonical": "https://www.quadexcursions.com/fr/t-shirt-logo/",
+    "sourceUrl": "https://www.quadexcursions.com/fr/t-shirt-logo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/fr/t-shirt-logo/"
   },
   {
     "path": "/en",
@@ -1917,6 +1908,24 @@
     "sourceFinalUrl": "https://www.quadexcursions.com/en/"
   },
   {
+    "path": "/de",
+    "file": "7b63e9ddf7c9669ad790608139cb991322fad23e.html",
+    "title": "Startseite | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/",
+    "sourceUrl": "https://www.quadexcursions.com/de",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/"
+  },
+  {
+    "path": "/de/t-shirt-logo/",
+    "file": "031478bfa3d19cedf15cf48d031647b0c0a8c2d0.html",
+    "title": "T-shirt logo | Quad Excursions",
+    "lang": "de",
+    "canonical": "https://www.quadexcursions.com/de/t-shirt-logo/",
+    "sourceUrl": "https://www.quadexcursions.com/de/t-shirt-logo/",
+    "sourceFinalUrl": "https://www.quadexcursions.com/de/t-shirt-logo/"
+  },
+  {
     "path": "/es",
     "file": "cfab24b19bcc53be19a51013663574b1cf6525e0.html",
     "title": "Portada | Quad Excursions",
@@ -1924,14 +1933,5 @@
     "canonical": "https://www.quadexcursions.com/es/",
     "sourceUrl": "https://www.quadexcursions.com/es",
     "sourceFinalUrl": "https://www.quadexcursions.com/es/"
-  },
-  {
-    "path": "/fr/t-shirt-logo/",
-    "file": "36b3131c2324b5af8480b7e1be69ee4e737f33d7.html",
-    "title": "{titre du produit} | Quad Excursions",
-    "lang": "fr",
-    "canonical": "https://www.quadexcursions.com/fr/t-shirt-logo/",
-    "sourceUrl": "https://www.quadexcursions.com/fr/t-shirt-logo/",
-    "sourceFinalUrl": "https://www.quadexcursions.com/fr/t-shirt-logo/"
   }
 ]

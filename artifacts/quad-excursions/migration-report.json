@@ -1,105 +1,120 @@
 {
-  "created": "2026-11-16T11:41:32.415Z",
+  "created": "2026-11-16T15:24:23.722Z",
   "source": "https://www.quadexcursions.com",
   "pages": 215,
   "languages": [
     "it",
-    "fr",
     "en",
     "de",
+    "fr",
     "es"
   ],
-  "assets": 144,
-  "assetBytes": 25435663,
+  "assets": 143,
+  "assetBytes": 25158532,
   "failures": [
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/quad-pour-les-nuls-apprendre-a-conduire-un-quad/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/de/quad-fuer-dummies-lernen-sie-quad-zu-fahren/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/comme-s-habiller-randonnee-quad/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/assurance-quad-souscription-maximum-securite/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/de/versicherung-quad-abschluss-hoechste-sicherheit/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/seguro-quad-stipula-maxima-seguridad/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/tecnicas-guia-cuad-atencion-en-silla/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/sportifs-quad-avantages-preparation-athletique-sports-tout-terrain/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/deportivos-cuatro-ventajas-preparacion-atletismo-deporte-todoterreno/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/preparer-une-randonnee-en-quad/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/de/wie-man-sich-auf-eine-quad-tour-vorbereitet/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/preparacion-para-excursion-en-cuadriciclo/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/de/team-building-quad-tour/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/team-building-excursion-en-quad/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/excursion-en-quad-oferta-alojamiento-cefalu/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/de/fuehrerschein-fuer-quad/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/es/licencia-para-cuatrimoto/",
-      "error": "Error: HTTP 429"
+      "error": "Error: HTTP 404"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/fr/permis-de-conduire-pour-quad/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/de/fuehrerschein-fuer-quad/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/licencia-para-cuatrimoto/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/abbigliamento/merchandising/t-shirts/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/merchandising/camisetas/",
+      "error": "Error: HTTP 404"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/merchandising/accesorios/",
       "error": "Error: HTTP 429"
     },
     {
@@ -109,22 +124,17 @@
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/es/merchandising/accesorios/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/abbigliamento/merchandising/t-shirts/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/es/merchandising/camisetas/",
+      "url": "https://www.quadexcursions.com/accessori/abbigliamento/merchandising/portachivi/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/accessori/abbigliamento/merchandising/cappellini/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/accesorios/merchandising/llavero/",
       "error": "Error: HTTP 429"
     },
     {
@@ -140,16 +150,6 @@
     {
       "kind": "page",
       "url": "https://www.quadexcursions.com/es/accesorios/merchandising/bolsas/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/accessori/abbigliamento/merchandising/portachivi/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/es/accesorios/merchandising/llavero/",
       "error": "Error: HTTP 429"
     },
     {
@@ -184,12 +184,12 @@
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/2022/11/29/tecniche-guida-quad-attenzione-in-sella/",
+      "url": "https://www.quadexcursions.com/2023/01/31/quad-for-dummies-imparare-a-guidare-il-quad/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/2023/01/31/quad-for-dummies-imparare-a-guidare-il-quad/",
+      "url": "https://www.quadexcursions.com/2022/11/29/tecniche-guida-quad-attenzione-in-sella/",
       "error": "Error: HTTP 429"
     },
     {
@@ -219,17 +219,12 @@
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/es/t%C3%A9cnicas-gu%C3%ADa-cuad-atenci%C3%B3n-en-silla/",
-      "error": "Error: HTTP 429"
-    },
-    {
-      "kind": "page",
       "url": "https://www.quadexcursions.com/fr/sportifs-quad-avantages-pr%C3%A9paration-athl%C3%A9tique-sports-tout-terrain/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/2022/10/29/sportivi-quad-vantaggi-preparazione-atletica-sport-fuori-strada/",
+      "url": "https://www.quadexcursions.com/es/t%C3%A9cnicas-gu%C3%ADa-cuad-atenci%C3%B3n-en-silla/",
       "error": "Error: HTTP 429"
     },
     {
@@ -239,12 +234,12 @@
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/2022/01/18/quad-e-atv-differenze-di-guida/",
+      "url": "https://www.quadexcursions.com/fr/pr%C3%A9parer-une-randonn%C3%A9e-en-quad/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/fr/pr%C3%A9parer-une-randonn%C3%A9e-en-quad/",
+      "url": "https://www.quadexcursions.com/2022/10/29/sportivi-quad-vantaggi-preparazione-atletica-sport-fuori-strada/",
       "error": "Error: HTTP 429"
     },
     {
@@ -259,12 +254,17 @@
     },
     {
       "kind": "page",
+      "url": "https://www.quadexcursions.com/escursione-quad-4-ore/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
       "url": "https://www.quadexcursions.com/2022/08/19/come-prepararsi-escursione-in-quad/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/escursione-quad-4-ore/",
+      "url": "https://www.quadexcursions.com/2022/01/18/quad-e-atv-differenze-di-guida/",
       "error": "Error: HTTP 429"
     },
     {
@@ -289,7 +289,37 @@
     },
     {
       "kind": "page",
+      "url": "https://www.quadexcursions.com/fr/permis%20de%20conduire%20pour%20quad/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/de/F%C3%BChrerschein%20f%C3%BCr%20Quad/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/licencia%20para%20cuatrimoto/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/2021/11/08/patente-per-quad/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/es/excursi%C3%B3n-en-quad-oferta-alojamiento-cefalu/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
       "url": "https://www.quadexcursions.com/escursione-quad-1-ora/",
+      "error": "Error: HTTP 429"
+    },
+    {
+      "kind": "page",
+      "url": "https://www.quadexcursions.com/2021/12/12/escursione-in-quad-offerta-pernottamento-cefalu/",
       "error": "Error: HTTP 429"
     },
     {
@@ -304,43 +334,13 @@
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/fr/permis%20de%20conduire%20pour%20quad/",
+      "url": "https://www.quadexcursions.com/2023/01/31/how-to-dress-for-quad-excursion/",
       "error": "Error: HTTP 429"
     },
     {
       "kind": "page",
-      "url": "https://www.quadexcursions.com/de/F%C3%BChrerschein%20f%C3%BCr%20Quad/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/es/licencia%20para%20cuatrimoto/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/2021/11/08/patente-per-quad/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/es/excursi%C3%B3n-en-quad-oferta-alojamiento-cefalu/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/2021/12/12/escursione-in-quad-offerta-pernottamento-cefalu/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
-      "url": "https://www.quadexcursions.com/2023/01/31/how-to-dress-for-quad-excursion/",
-      "error": "Error: HTTP 404"
-    },
-    {
-      "kind": "page",
       "url": "https://www.quadexcursions.com/2022/02/08/team-building-quad-excursion/",
-      "error": "Error: HTTP 404"
+      "error": "Error: HTTP 429"
     }
   ],
   "remainingQueue": [],
@@ -349,15 +349,13 @@
     "Public HTML, original CSS and images imported. Framework360 runtime and expiry message excluded.",
     "Private customers, accounts, orders, bookings and marketing lists require owner export.",
     "Checkout, authentication, availability and form delivery must be connected before production.",
-    "Original Regiondo calendars preserved. A server request was denied by its anti-bot service; live booking acceptance is not verified.",
-    "Original Regiondo calendars preserved. A server request was denied by its anti-bot service; live booking acceptance is not verified."
+    "Booking calendar embeds were replaced with WhatsApp information links at the site owner’s request."
   ],
   "serverRenderedPages": 215,
-  "externalEmbedsConsentGated": 252,
-  "unavailableHreflangReferencesRemoved": 0,
+  "externalEmbedsConsentGated": 237,
+  "unavailableHreflangReferencesRemoved": 138,
   "remainingDependencies": [
     "YouTube videos (external embeds)",
-    "Google Maps (external embeds)",
-    "Regiondo booking calendars (external embeds, availability not verified)"
+    "Google Maps (external embeds)"
   ]
 }

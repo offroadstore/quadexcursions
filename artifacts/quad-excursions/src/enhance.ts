@@ -2,7 +2,7 @@
 // Never replaces page content; only attaches behavior to existing nodes.
 
 const EMAIL = 'info@quadexcursions.com';
-const WHATSAPP = '390921766476';
+const WHATSAPP = '390921766518';
 const CONSENT_KEY = 'qe_cookie_consent_v1';
 
 type Lang = 'it' | 'en' | 'fr' | 'de' | 'es';
