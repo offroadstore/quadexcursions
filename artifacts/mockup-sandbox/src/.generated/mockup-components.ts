@@ -4,5 +4,6 @@ export const modules: ModuleMap = {
   "./components/mockups/quad-refinement/Contact.tsx": () => import("../components/mockups/quad-refinement/Contact.tsx"),
   "./components/mockups/quad-refinement/Current.tsx": () => import("../components/mockups/quad-refinement/Current.tsx"),
   "./components/mockups/quad-refinement/Home.tsx": () => import("../components/mockups/quad-refinement/Home.tsx"),
+  "./components/mockups/quad-refinement/HomeVertical.tsx": () => import("../components/mockups/quad-refinement/HomeVertical.tsx"),
   "./components/mockups/quad-refinement/Tour.tsx": () => import("../components/mockups/quad-refinement/Tour.tsx")
 };
