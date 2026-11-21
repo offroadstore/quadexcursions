@@ -1,0 +1,24 @@
+/* Functional affordances, without changing the approved visual direction. */
+.migration-booking-link a::before {
+  background-image: var(--qe-whatsapp-icon);
+}
+.qe-inquiry-note { font: 400 13px/1.5 "DM Sans", sans-serif; margin: 14px 0 0; }
+.qe-inquiry-button {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 20px; border-radius: 5px; background: #16724d; color: #fff !important;
+  text-decoration: none; font: 700 15px/1.3 "DM Sans",sans-serif; min-height: 48px;
+}
+.qe-inquiry-button::before {
+  content: ""; width: 24px; height: 24px; flex: 0 0 24px;
+  background: var(--qe-whatsapp-icon) center / contain no-repeat;
+}
+.qe-assistance { max-width: 720px; margin: 32px auto; padding: 28px; background: #fffefa; border: 1px solid #e3e4dc; }
+.qe-ui-mobile-header .ms-navbar-list { z-index: 1002; }
+@media (max-width: 767px) {
+  .qe-ui-mobile-header .qe-nav-open > .ms-navbar-list {
+    position: absolute; top: 100%; left: 0; width: 100%;
+    max-height: calc(100svh - 135px); overflow-y: auto; margin: 0;
+    padding: 12px 16px; box-shadow: 0 10px 20px #20353720;
+  }
+  .qe-ui-mobile-header .ms-navbar-list a { min-height: 44px; display: flex; align-items: center; }
+}

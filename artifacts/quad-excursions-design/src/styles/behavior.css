@@ -1,0 +1,83 @@
+/* Surgical behavior styles only. Original CSS in /migrated-assets/ stays the source of truth. */
+
+/* Mobile menu (replaces FW navbar toggle JS) */
+@media (max-width: 719px) {
+  .qe-nav-open > .ms-navbar-list { display: block !important; }
+}
+.ms-navbar.qe-nav-open > .ms-navbar-list { display: block !important; }
+
+/* Popups: hidden until opened */
+.ms-popup:not(.qe-open) { display: none !important; }
+.ms-popup.qe-open { display: block !important; }
+.ms-popup.qe-open .ms-popup-container { animation: qe-pop-in .35s ease both; }
+@keyframes qe-pop-in { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: none; } }
+
+/* FAQ */
+.ms-faq-question { cursor: pointer; }
+.ms-faq-answer.qe-collapsed { display: none; }
+
+/* Tabs */
+.ms-tabs .ms-tab-title { cursor: pointer; }
+.ms-tabs.qe-tabs .ms-tab-element:not(.qe-active) > .ms-tab-content { display: none; }
+.ms-tabs.qe-tabs .ms-tab-element.qe-active > .ms-tab-title { opacity: 1; }
+.ms-tabs.qe-tabs .ms-tab-element:not(.qe-active) > .ms-tab-title { opacity: .6; }
+
+/* Carousel (owl replacement, original DOM) */
+.qe-carousel { display: block !important; opacity: 1 !important; visibility: visible !important; position: relative; }
+.qe-carousel .qe-track > * { display: block !important; opacity: 1 !important; visibility: visible !important; max-width: none; box-sizing: border-box; }
+.qe-carousel .qe-track > * img { max-width: 100%; height: auto; }
+.qe-carousel .owl-dots { display: block; text-align: center; margin-top: 10px; }
+.qe-carousel .owl-dot { width: 10px; height: 10px; border: 0; border-radius: 50%; margin: 0 4px; opacity: .45; cursor: pointer; padding: 0; }
+.qe-carousel .owl-dot.active { opacity: 1; }
+.qe-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; scroll-behavior: smooth; }
+.qe-track::-webkit-scrollbar { display: none; }
+.qe-track > * { flex: 0 0 auto; min-width: 0; scroll-snap-align: start; }
+.qe-car-btn { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; width: 36px; height: 36px; border: 0; border-radius: 50%; background: rgba(20,20,20,.55); color: #fff; font-size: 20px; line-height: 36px; cursor: pointer; }
+.qe-car-prev { left: 6px; } .qe-car-next { right: 6px; }
+
+/* Lightbox */
+.qe-lightbox { position: fixed; inset: 0; z-index: 100000; background: rgba(10,10,10,.92); display: flex; align-items: center; justify-content: center; }
+.qe-lightbox img { max-width: 92vw; max-height: 86vh; object-fit: contain; }
+.qe-lightbox button { position: absolute; background: none; border: 0; color: #f4f1ea; font-size: 34px; cursor: pointer; padding: 12px; }
+.qe-lb-close { top: 8px; right: 12px; } .qe-lb-prev { left: 8px; } .qe-lb-next { right: 8px; }
+
+/* Notice dialog (forms, login, cart) */
+.qe-dialog { position: fixed; inset: 0; z-index: 100001; background: rgba(15,15,15,.6); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.qe-dialog-box { background: #fbf8f2; color: #222; max-width: 460px; width: 100%; padding: 26px 24px; border-radius: 6px; box-shadow: 0 18px 50px rgba(0,0,0,.3); }
+.qe-dialog-box h3 { margin: 0 0 10px; font-size: 20px; }
+.qe-dialog-box p { margin: 0 0 16px; line-height: 1.5; font-size: 15px; }
+.qe-dialog-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.qe-dialog-actions a, .qe-dialog-actions button { display: inline-block; padding: 10px 16px; border-radius: 4px; border: 1px solid #333; background: transparent; color: #222; font: inherit; font-size: 14px; cursor: pointer; text-decoration: none; }
+.qe-dialog-actions .qe-primary { background: #25d366; border-color: #1da851; color: #fff; }
+
+/* Cookie bar + settings */
+#gdpr_cookie_bar.qe-show { display: block !important; }
+.qe-cookie-settings label { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; font-size: 15px; }
+
+/* Consent placeholder for blocked embeds */
+.qe-embed-blocked { display: flex; align-items: center; justify-content: center; min-height: 200px; background: #e9e4da; color: #333; text-align: center; padding: 16px; font-size: 14px; cursor: pointer; }
+
+/* Search results */
+.qe-search-results { list-style: none; padding: 0; margin: 20px 0; }
+.qe-search-results li { padding: 14px 0; border-bottom: 1px solid rgba(0,0,0,.1); }
+.qe-search-results a { font-weight: 600; font-size: 17px; }
+.qe-search-results p { margin: 4px 0 0; font-size: 14px; opacity: .8; }
+
+/* WhatsApp booking inquiry link */
+.migration-booking-link a { display: inline-flex; align-items: center; gap: 7px; }
+.migration-booking-link a::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  background: url("/migrated-assets/9cb2fd7bab023aba3056.png") center / contain no-repeat;
+}
+
+/* AOS without runtime: elements become visible once .aos-animate is set; never stay hidden */
+[data-aos] { transition: opacity .6s ease, transform .6s ease; }
+[data-aos].aos-animate { opacity: 1 !important; transform: none !important; visibility: visible !important; }
+@media (prefers-reduced-motion: reduce) { [data-aos] { opacity: 1 !important; transform: none !important; } }
+
+/* Original carousels are display:none until FW JS ran */
+.ms-carousel.qe-carousel, .ms-gallery-carousel.qe-carousel { display: block !important; }

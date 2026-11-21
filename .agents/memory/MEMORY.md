@@ -1,1 +1,2 @@
 - [Titolarità Quad Excursions](quad-migration.md) — il richiedente ha confermato di essere il proprietario del sito da migrare.
+- [Layout approvato e richieste informazioni](quad-design-decision.md) — nuovo sito separato dalla Homepage migliorata scelta sul canvas; richieste WhatsApp senza calendari.
