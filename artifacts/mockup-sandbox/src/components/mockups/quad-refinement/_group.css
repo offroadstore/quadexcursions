@@ -1,0 +1,9 @@
+/* The original document's styles live inside its isolated browsing context.
+   Do not import the application's globals into the shared sandbox. */
+.qe-extracted-frame {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: 100dvh;
+  background: #fff;
+}

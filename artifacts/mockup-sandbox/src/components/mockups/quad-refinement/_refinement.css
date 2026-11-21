@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+/* Scoped to the extracted site documents: an editorial, trail-ready polish
+   built around Quad Excursions' original red mark and Cefalù's sea tones. */
+html.qe-refined {
+  --qe-ink: #203537;
+  --qe-muted: #647476;
+  --qe-paper: #f7f6f1;
+  --qe-white: #fffefa;
+  --qe-red: #d73529;
+  --qe-red-dark: #b92d24;
+  --qe-sea: #1e6870;
+  --qe-line: #e3e4dc;
+  scroll-behavior: smooth;
+  background: var(--qe-paper);
+}
+
+.qe-refined body {
+  margin: 0;
+  color: var(--qe-ink);
+  background-color: var(--qe-paper);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.qe-refined *,
+.qe-refined *::before,
+.qe-refined *::after { box-sizing: border-box; }
+
+.qe-refined h1,
+.qe-refined h2,
+.qe-refined h3,
+.qe-refined h4 {
+  color: inherit;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.qe-refined p { line-height: 1.72; }
+.qe-refined a { transition: color .18s ease, background-color .18s ease, transform .18s ease; }
+.qe-refined a:hover { color: var(--qe-red-dark); }
+.qe-refined :focus-visible {
+  outline: 3px solid #e9a33b !important;
+  outline-offset: 3px;
+}
+
+.qe-refined .ms-container {
+  width: min(1180px, calc(100% - 64px)) !important;
+  margin-inline: auto !important;
+}
+.qe-refined .ms-row { min-width: 0; }
+.qe-refined .ms-full-width { background-color: transparent; }
+.qe-refined .ms-full-width > .ms-container { padding-inline: 0; }
+
+/* Keep the recognizable logo and dual desktop/mobile navigation, while
+   giving the original header a more deliberate, legible surface. */
+.qe-refined .ms-position-fixed.ms-position-attachment-top {
+  z-index: 1000;
+  background: rgba(247, 246, 241, .97) !important;
+  box-shadow: 0 1px 0 rgba(32, 53, 55, .12);
+  backdrop-filter: blur(12px);
+}
+.qe-refined .ms-position-fixed.ms-position-attachment-top .ms-container { max-width: 1280px !important; }
+.qe-refined .qe-ui-desktop-header .ms-inside-row {
+  display: grid;
+  grid-template-columns: 150px minmax(220px, 1fr) auto;
+  align-items: center;
+  gap: 22px;
+  padding-block: 8px;
+}
+.qe-refined .qe-ui-desktop-header .ms-inside-row > .ms-col-2,
+.qe-refined .qe-ui-desktop-header .ms-inside-row > .ms-col-4,
+.qe-refined .qe-ui-desktop-header .ms-inside-row > .ms-col-6 {
+  width: auto;
+  max-width: none;
+  padding: 0;
+}
+.qe-refined .qe-ui-desktop-header .ms-inside-row > .ms-col-6 > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor p,
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor strong,
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor span,
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor a,
+.qe-refined .qe-ui-desktop-header .ms-block-title-with-icon,
+.qe-refined .qe-ui-desktop-header .ms-block-title-with-icon *,
+.qe-refined .qe-ui-desktop-header .ms-block-title h1,
+.qe-refined .qe-ui-desktop-header .ms-block-title h1 a,
+.qe-refined .qe-ui-desktop-header .ms-block-languages-flag,
+.qe-refined .qe-ui-desktop-header .ms-block-languages-flag select {
+  color: var(--qe-ink) !important;
+}
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor p { margin: 0; }
+.qe-refined .qe-ui-desktop-header .ms-block-text-editor span { font-size: 16px !important; }
+.qe-refined .qe-ui-desktop-header .ms-block-title-with-icon p {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.qe-refined .qe-ui-desktop-header .ms-block-title h1 {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+.qe-refined .qe-ui-desktop-header .ms-language-selector select {
+  min-height: 38px;
+  border: 1px solid var(--qe-line);
+  border-radius: 4px;
+  background: var(--qe-white);
+}
+.qe-refined .qe-ui-desktop-header .ms-block-cart .cart-toggler,
+.qe-refined .qe-ui-desktop-header .ms-block-cart a.ms-btn {
+  min-height: 40px;
+  padding: 10px 14px !important;
+  background: var(--qe-red) !important;
+  color: #fff !important;
+  white-space: nowrap;
+}
+.qe-refined .qe-ui-desktop-header .ms-block-cart a.ms-btn * { color: #fff !important; }
+.qe-refined .qe-ui-desktop-header .ms-block-icon a { color: var(--qe-ink) !important; }
+.qe-refined .qe-ui-desktop-header .ms-block-title h1 a { white-space: nowrap; }
+.qe-refined .qe-ui-desktop-header .ms-block-logo img { width: 138px !important; max-width: 100%; }
+.qe-refined .qe-ui-mobile-header {
+  z-index: 1000;
+  background: rgba(247, 246, 241, .98) !important;
+  box-shadow: 0 1px 0 rgba(32, 53, 55, .12);
+}
+.qe-refined .qe-ui-mobile-header > .ms-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-block: 7px;
+}
+.qe-refined .qe-ui-mobile-brandline {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.qe-refined .qe-ui-mobile-logo { flex: 0 0 auto; }
+.qe-refined .qe-ui-mobile-logo img { width: auto; max-width: 132px; max-height: 47px; object-fit: contain; }
+.qe-refined .qe-ui-mobile-phone {
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  width: max-content !important;
+  max-width: none !important;
+  margin: 0;
+  overflow: visible;
+  transform: translateY(-50%);
+}
+.qe-refined .qe-ui-mobile-phone p { margin: 0; }
+.qe-refined .qe-ui-mobile-phone a {
+  display: block !important;
+  width: max-content !important;
+  min-width: max-content;
+  color: var(--qe-ink) !important;
+  font-size: 13px !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.qe-refined .qe-ui-mobile-phone span { white-space: nowrap; }
+.qe-refined .qe-ui-mobile-header .ms-inside-row {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 8px;
+}
+.qe-refined .qe-ui-mobile-header .ms-inside-row > [class*="ms-col-"] {
+  width: auto;
+  max-width: none;
+  padding: 0;
+  text-align: center;
+}
+.qe-refined .qe-ui-mobile-header form.ms-language-selector,
+.qe-refined .qe-ui-mobile-header .ms-language-selector { width: 100%; }
+.qe-refined .qe-ui-mobile-header select.ms-language-selector {
+  display: block;
+  width: 100% !important;
+  min-height: 38px;
+  padding-inline: 7px;
+  border: 1px solid var(--qe-line);
+  border-radius: 4px;
+  background: var(--qe-white);
+  color: var(--qe-ink) !important;
+  font: 600 12px/1.2 "DM Sans", sans-serif;
+  appearance: auto;
+}
+.qe-refined .qe-ui-mobile-header .ms-title-icon-content,
+.qe-refined .qe-ui-mobile-header .ms-title-icon { color: var(--qe-ink) !important; }
+.qe-refined .qe-ui-mobile-header .ms-menu-toggle-default a {
+  display: inline-flex;
+  min-width: 42px;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--qe-line);
+  border-radius: 4px;
+  color: var(--qe-ink) !important;
+}
+.qe-refined .qe-ui-mobile-header .ms-navbar-btn a { color: var(--qe-ink) !important; }
+.qe-refined .ms-block-logo img,
+.qe-refined .ms-visual-block.ms-block-logo img { max-height: 68px; width: auto; object-fit: contain; }
+
+.qe-refined .ms-btn,
+.qe-refined a.ms-btn,
+.qe-refined button.ms-btn,
+.qe-refined .ms-btn-primary {
+  min-height: 48px;
+  padding: 13px 23px !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  background: var(--qe-red) !important;
+  color: #fff !important;
+  font: 700 14px/1.25 "DM Sans", sans-serif !important;
+  letter-spacing: .015em;
+  box-shadow: 0 5px 14px rgba(183, 45, 36, .16);
+}
+.qe-refined .ms-btn:hover,
+.qe-refined .ms-btn-primary:hover {
+  background: var(--qe-red-dark) !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+.qe-refined .ms-btn-secondary { background: var(--qe-sea) !important; color: white !important; }
+
+.qe-refined .ms-carousel,
+.qe-refined .owl-stage-outer { overflow: hidden; }
+.qe-refined .ms-visual-block img { max-width: 100%; }
+.qe-refined img { border-radius: 3px; }
+.qe-refined .ms-block-image img { object-fit: cover; }
+
+/* Consistent breathing room without overriding the source's hero art. */
+.qe-refined .ms-page-content > .ms-row:not(.ms-deviceonly-general):not(.ms-deviceonly-mobile) {
+  padding-block: clamp(34px, 5.2vw, 76px);
+}
+.qe-refined .ms-full-content { position: relative; }
+.qe-refined .ms-visual-block.ms-block-title h1,
+.qe-refined h1 {
+  font-size: clamp(34px, 4.5vw, 58px);
+}
+.qe-refined h2 { font-size: clamp(28px, 3.4vw, 42px); }
+.qe-refined h3 { font-size: clamp(21px, 2.2vw, 28px); }
+.qe-refined .ms-visual-block.ms-block-text-editor,
+.qe-refined .ms-visual-block.ms-block-details { color: var(--qe-muted); }
+.qe-refined .ms-visual-block.ms-block-text-editor p { max-width: 68ch; }
+.qe-refined .ms-carousel-item.structure,
+.qe-refined .ms-visual-block.ms-block-product,
+.qe-refined .ms-visual-block.ms-block-ecommerce-products .ms-carousel-item {
+  border-radius: 8px;
+}
+.qe-refined #gdpr_cookie_bar {
+  padding: 10px 0 !important;
+  background: var(--qe-ink) !important;
+}
+.qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.qe-refined #gdpr_cookie_bar .cookie_bar_message {
+  margin: 0;
+  color: #f7f6f1 !important;
+  font: 500 13px/1.5 "DM Sans", sans-serif;
+}
+.qe-refined #gdpr_cookie_bar .cookie_bar_message a { color: #fff !important; }
+.qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_buttons { flex: 0 0 auto; }
+.qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_buttons a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  padding: 10px 18px !important;
+  border-radius: 4px;
+  background: var(--qe-red) !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+/* Tour detail: clarify the purchase/info area and review rhythm. */
+.qe-refined-tour .ms-form,
+.qe-refined-tour .ms-product,
+.qe-refined-tour .ms-product-detail,
+.qe-refined-tour .ms-visual-block.ms-block-ecommerce-product {
+  color: var(--qe-ink);
+}
+.qe-refined-tour .ms-block-gallery img {
+  border-radius: 7px;
+}
+.qe-refined-tour .ms-block-attributes {
+  margin-block: 18px;
+  color: var(--qe-ink);
+}
+.qe-refined-tour .ms-block-attributes li {
+  margin-block: 5px;
+  line-height: 1.55;
+}
+.qe-refined-tour .ms-block-description { color: var(--qe-muted); }
+.qe-refined-tour .ms-block-price { margin-top: 16px; }
+.qe-refined-tour .ms-block-price .ms-price-element {
+  color: var(--qe-ink);
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(30px, 3vw, 38px);
+  font-weight: 800;
+}
+.qe-refined-tour .ms-block-regiondo-checkout .migration-booking-link { margin: 14px 0 0; }
+.qe-refined-tour .ms-block-regiondo-checkout .migration-booking-link a {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 19px;
+  border-radius: 5px;
+  background: #16724d;
+  color: #fff !important;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+  box-shadow: 0 5px 14px rgba(22, 114, 77, .16);
+}
+.qe-refined-tour .ms-block-regiondo-checkout .migration-booking-link a::before {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  flex: 0 0 25px;
+  border-radius: 50%;
+  background: url("/__mockup/quad-ui-source/migrated-assets/9cb2fd7bab023aba3056.png") center / contain no-repeat;
+  content: "";
+}
+.qe-refined-tour .ms-block-regiondo-checkout .migration-booking-link a:hover {
+  background: #105b3d;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+.qe-refined-tour .ms-input,
+.qe-refined-tour .ms-textarea,
+.qe-refined-contact .ms-input,
+.qe-refined-contact .ms-textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px !important;
+  border: 1px solid #d6dcd7 !important;
+  border-radius: 4px !important;
+  background: var(--qe-white) !important;
+  color: var(--qe-ink) !important;
+  font: 500 15px/1.4 "DM Sans", sans-serif !important;
+}
+.qe-refined-tour .ms-textarea,
+.qe-refined-contact .ms-textarea { min-height: 130px; }
+.qe-refined-tour label,
+.qe-refined-contact label { color: var(--qe-ink); font-weight: 600; }
+
+/* Contact page forms and details read as a personal local contact, not a
+   directory listing. */
+.qe-refined-contact .ms-form {
+  padding: clamp(22px, 4vw, 42px);
+  border: 1px solid var(--qe-line);
+  border-radius: 8px;
+  background: var(--qe-white);
+  box-shadow: 0 14px 40px rgba(32, 53, 55, .055);
+}
+.qe-refined-contact .ms-form-col { margin-bottom: 15px; }
+.qe-refined a[href^="tel:"],
+.qe-refined a[href*="wa.me"] { font-weight: 700; }
+
+@media (max-width: 767px) {
+  .qe-refined body { font-size: 15px; }
+  .qe-refined .ms-container {
+    width: calc(100% - 36px) !important;
+    max-width: 100% !important;
+  }
+  .qe-refined .qe-ui-desktop-header { display: none !important; }
+  .qe-refined .qe-ui-mobile-header { padding-block: 0; }
+  .qe-refined .qe-ui-mobile-logo img { width: 138px !important; max-height: 47px; }
+  .qe-refined .qe-ui-mobile-original-logo-row { display: none !important; }
+  .qe-refined .qe-ui-mobile-header .ms-inside-row > [class*="ms-col-"] { margin: 0; }
+  .qe-refined .ms-page-content > .ms-row:not(.ms-deviceonly-general):not(.ms-deviceonly-mobile) {
+    padding-block: 32px;
+  }
+  .qe-refined #gdpr_cookie_bar { padding: 9px 0 !important; }
+  .qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_inside {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+  }
+  .qe-refined #gdpr_cookie_bar .cookie_bar_message { font-size: 11px; }
+  .qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_buttons { width: max-content; }
+  .qe-refined #gdpr_cookie_bar .gdpr_cookie_bar_buttons a {
+    width: max-content !important;
+    min-height: 38px;
+    padding: 8px 12px !important;
+  }
+  .qe-refined h1 { font-size: clamp(32px, 9vw, 44px); }
+  .qe-refined h2 { font-size: clamp(27px, 7.5vw, 35px); }
+  .qe-refined .ms-btn,
+  .qe-refined a.ms-btn,
+  .qe-refined button.ms-btn { min-height: 48px; }
+  .qe-refined-contact .ms-form { padding: 22px 17px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qe-refined,
+  .qe-refined *,
+  .qe-refined *::before,
+  .qe-refined *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
