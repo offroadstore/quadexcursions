@@ -1,0 +1,339 @@
+/* Equalize the two excursion cards on the homepage so price and primary
+   action share one baseline even when their descriptions wrap differently. */
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) {
+  display: flex;
+  align-items: stretch;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) > .ms-row.ms-full-content,
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) > .ms-row.ms-full-content > .ms-inside-row,
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) > .ms-row.ms-full-content > .ms-inside-row > .ms-col-12 {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: stretch;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) > .ms-row.ms-full-content > .ms-inside-row > .ms-col-12 > div:has(
+  > .ms-visual-block.ms-block-button .ms-button-container > a[href*="escursione"]
+) {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) .ms-visual-block.ms-block-description {
+  flex: 1 1 auto;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) .ms-visual-block.ms-block-price {
+  margin-top: 18px;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) .ms-visual-block.ms-block-button {
+  margin-top: 16px;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) .ms-visual-block.ms-block-button .ms-button-container {
+  display: flex;
+}
+
+.qe-refined-home .ms-col-6.structure:has(
+  > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+) .ms-visual-block.ms-block-button a.ms-btn {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .qe-refined-home .ms-col-6.structure:has(
+    > .ms-row.ms-full-content .ms-button-container > a[href*="escursione"]
+  ) .ms-visual-block.ms-block-button {
+    margin-top: 14px;
+  }
+}
+
+/* Size only the row that directly owns the hero slider. The imported page
+   nests every lower section inside a larger row; never constrain that wrapper. */
+.qe-refined-home .ms-page-content .ms-row:has(
+  > .ms-inside-row > .ms-col-12 > div > .ms-block-slider
+) {
+  height: min(690px, calc(100svh - 98px)) !important;
+  min-height: min(690px, calc(100svh - 98px)) !important;
+  overflow: hidden;
+}
+
+.qe-refined-home .ms-page-content .ms-row:has(
+  > .ms-inside-row > .ms-col-12 > div > .ms-block-slider
+) > .ms-inside-row,
+.qe-refined-home .ms-page-content .ms-row:has(
+  > .ms-inside-row > .ms-col-12 > div > .ms-block-slider
+) > .ms-inside-row > .ms-col-12,
+.qe-refined-home .ms-page-content .ms-row:has(
+  > .ms-inside-row > .ms-col-12 > div > .ms-block-slider
+) > .ms-inside-row > .ms-col-12 > div,
+.qe-refined-home .ms-block-slider,
+.qe-refined-home .ms-block-slider .ms-slider.single,
+.qe-refined-home .ms-block-slider .ms-slider-slide,
+.qe-refined-home .ms-block-slider .ms-slide-overlay:first-child,
+.qe-refined-home .ms-block-slider .ms-background-video,
+.qe-refined-home .ms-block-slider .ms-background-video-foreground {
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .qe-refined-home .ms-page-content .ms-row:has(
+    > .ms-inside-row > .ms-col-12 > div > .ms-block-slider
+  ) {
+    height: clamp(440px, 66svh, 580px) !important;
+    min-height: clamp(440px, 66svh, 580px) !important;
+  }
+}
+
+/* Balance the original intro column with the real tour cards, rather than
+   leaving the product pair compressed into a third of the available width. */
+.qe-refined-home .ms-page-content .ms-inside-row:has(
+  > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+):has(
+  > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+) {
+  display: grid !important;
+  grid-template-columns: minmax(230px, .72fr) minmax(0, 1.5fr);
+  align-items: start;
+  gap: clamp(28px, 4vw, 56px);
+}
+
+.qe-refined-home .ms-page-content .ms-inside-row:has(
+  > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+):has(
+  > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+) > .ms-col-4,
+.qe-refined-home .ms-page-content .ms-inside-row:has(
+  > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+):has(
+  > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+) > .ms-col-8 {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0;
+  padding: 0 !important;
+}
+
+.qe-refined-home .ms-page-content .ms-inside-row:has(
+  > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+):has(
+  > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+) > .ms-col-4 .ms-visual-block.ms-block-text-editor:first-child p,
+.qe-refined-home .ms-page-content .ms-inside-row:has(
+  > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+):has(
+  > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+) > .ms-col-4 .ms-visual-block.ms-block-text-editor:first-child p span {
+  font-size: clamp(26px, 2.2vw, 30px) !important;
+  line-height: 1.16;
+  text-wrap: balance;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: clamp(14px, 1.7vw, 22px);
+  margin: 0 !important;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure {
+  display: flex;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0;
+  padding: 0 !important;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content {
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+  border: 1px solid rgba(32, 53, 55, .08);
+  border-radius: 8px;
+  background: #fffefa;
+  box-shadow: 0 8px 24px rgba(32, 53, 55, .08);
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content > .ms-inside-row {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content > .ms-inside-row > .ms-col-12 {
+  display: flex;
+  width: 100%;
+  max-width: none;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-title,
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-description,
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-price,
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-button {
+  margin-inline: clamp(14px, 1.8vw, 22px);
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-title {
+  margin-top: 20px;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-description {
+  flex: 1 1 auto;
+}
+
+.qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row > .structure
+  > .ms-row.ms-full-content .ms-block-button {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .qe-refined-home .ms-page-content .ms-inside-row:has(
+    > .ms-col-12 > div > .ms-visual-block.ms-block-ecommerce-products
+  ) > .ms-col-12:first-child .ms-visual-block.ms-block-text-editor:first-child p {
+    font-size: clamp(25px, 6.5vw, 29px) !important;
+    line-height: 1.14;
+    text-wrap: balance;
+  }
+
+  .qe-refined-home .ms-page-content .ms-inside-row:has(
+    > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+  ):has(
+    > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+  ) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .qe-refined-home .ms-page-content .ms-inside-row:has(
+    > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+  ):has(
+    > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+  ) > .ms-col-4 {
+    text-align: center;
+  }
+
+  .qe-refined-home .ms-page-content .ms-inside-row:has(
+    > .ms-col-4 > div > .ms-visual-block.ms-block-text-editor p
+  ):has(
+    > .ms-col-8 > div > .ms-visual-block.ms-block-ecommerce-products
+  ) > .ms-col-4 .ms-visual-block.ms-block-text-editor p {
+    font-size: clamp(25px, 6.5vw, 30px) !important;
+    line-height: 1.14;
+    text-wrap: balance;
+  }
+
+  .qe-refined-home .ms-visual-block.ms-block-ecommerce-products > .ms-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+}
+
+/* Give the original homepage hero a controlled, proportional stage. */
+.qe-refined-home .ms-block-slider .ms-slider.single,
+.qe-refined-home .ms-block-slider .ms-slider-slide,
+.qe-refined-home .ms-block-slider .ms-slide-overlay:first-child,
+.qe-refined-home .ms-block-slider .ms-background-video,
+.qe-refined-home .ms-block-slider .ms-background-video-foreground {
+  height: min(690px, calc(100svh - 98px));
+  min-height: 540px;
+}
+
+.qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content {
+  display: flex;
+  min-height: min(690px, calc(100svh - 98px));
+  align-items: center;
+  padding-block: clamp(42px, 7vh, 76px);
+}
+
+.qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content > .ms-inside-row {
+  width: min(100%, 1060px);
+  margin-inline: auto;
+}
+
+.qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content .ms-block-text-editor p {
+  max-width: 13ch;
+  margin-inline: auto;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(42px, 6vw, 76px) !important;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -.045em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content .qe-track {
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .qe-refined-home .ms-block-slider .ms-slider.single,
+  .qe-refined-home .ms-block-slider .ms-slider-slide,
+  .qe-refined-home .ms-block-slider .ms-slide-overlay:first-child,
+  .qe-refined-home .ms-block-slider .ms-background-video,
+  .qe-refined-home .ms-block-slider .ms-background-video-foreground {
+    height: clamp(440px, 66svh, 580px);
+    min-height: 0;
+  }
+
+  .qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content {
+    min-height: clamp(440px, 66svh, 580px);
+    padding: 40px 18px;
+  }
+
+  .qe-refined-home .ms-block-slider .ms-slide > .ms-row.ms-full-content .ms-block-text-editor p {
+    max-width: 12ch;
+    font-size: clamp(38px, 10vw, 48px) !important;
+    line-height: 1.04;
+  }
+}

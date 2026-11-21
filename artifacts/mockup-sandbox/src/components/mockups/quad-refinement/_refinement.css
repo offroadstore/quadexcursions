@@ -384,8 +384,110 @@ html.qe-refined {
   }
   .qe-refined .qe-ui-desktop-header { display: none !important; }
   .qe-refined .qe-ui-mobile-header { padding-block: 0; }
-  .qe-refined .qe-ui-mobile-logo img { width: 138px !important; max-height: 47px; }
-  .qe-refined .qe-ui-mobile-original-logo-row { display: none !important; }
+  .qe-refined .qe-ui-mobile-header > .ms-container {
+    width: calc(100% - 32px) !important;
+    gap: 8px;
+    padding-block: 10px;
+  }
+  .qe-refined .qe-ui-mobile-brandline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 48px;
+  }
+  .qe-refined .qe-ui-mobile-logo {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 1 132px;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .qe-refined .qe-ui-mobile-logo img {
+    display: block;
+    width: 132px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 56px;
+    object-fit: contain;
+  }
+  .qe-refined .qe-ui-mobile-phone {
+    position: static;
+    transform: none;
+    flex: 0 0 auto;
+    margin: 0;
+  }
+  .qe-refined .qe-ui-mobile-phone a {
+    display: flex !important;
+    align-items: center;
+    min-height: 44px;
+    font-size: 12px !important;
+    letter-spacing: -.01em;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-inside-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 44px 44px;
+    gap: 12px;
+    margin: 0 !important;
+    align-items: center;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-inside-row > [class*="ms-col-"] {
+    min-width: 0;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-inside-row > [class*="ms-col-"] > div,
+  .qe-refined .qe-ui-mobile-header .ms-block-languages-flag {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .qe-refined .qe-ui-mobile-header select.ms-language-selector {
+    width: 100% !important;
+    max-width: 156px;
+    height: 44px !important;
+    min-height: 44px;
+    padding: 0 32px 0 12px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+    background: var(--qe-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23203537' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") right 10px center / 16px no-repeat !important;
+    appearance: none !important;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-block-title-with-icon,
+  .qe-refined .qe-ui-mobile-header .ms-block-menu {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-block-title-with-icon > a,
+  .qe-refined .qe-ui-mobile-header .ms-navbar-btn > a {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid var(--qe-line) !important;
+    border-radius: 5px;
+    color: var(--qe-ink) !important;
+    background: var(--qe-white);
+  }
+  .qe-refined .qe-ui-mobile-header .ms-title-icon {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 17px !important;
+  }
+  .qe-refined .qe-ui-mobile-header .ms-title-icon-content { display: none; }
+  .qe-refined .qe-ui-mobile-header .ms-navbar-list {
+    text-align: left;
+    background: var(--qe-white);
+  }
+  .qe-refined .qe-ui-mobile-header nav { position: static; }
+  .qe-refined .qe-ui-mobile-original-logo-row,
+  .qe-refined .qe-ui-duplicate-mobile-logo { display: none !important; }
   .qe-refined .qe-ui-mobile-header .ms-inside-row > [class*="ms-col-"] { margin: 0; }
   .qe-refined .ms-page-content > .ms-row:not(.ms-deviceonly-general):not(.ms-deviceonly-mobile) {
     padding-block: 32px;

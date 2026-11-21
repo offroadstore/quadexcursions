@@ -45,6 +45,7 @@ export function ExtractedDocument({
             ?.querySelectorAll<HTMLElement>(".ms-deviceonly-mobile .ms-block-logo");
           originalMobileLogos?.forEach((logo) => {
             if (mobileHeader?.contains(logo)) return;
+            logo.classList.add("qe-ui-duplicate-mobile-logo");
             logo.closest<HTMLElement>(".ms-row.ms-full-width")?.classList.add("qe-ui-mobile-original-logo-row");
           });
 
@@ -58,11 +59,19 @@ export function ExtractedDocument({
             const brandline = document.createElement("div");
             brandline.className = "qe-ui-mobile-brandline";
             if (originalLogo) {
-              const clone = originalLogo.cloneNode(true) as HTMLElement;
-              clone.classList.add("qe-ui-mobile-logo");
-              clone.querySelectorAll("[id]").forEach((node) => node.removeAttribute("id"));
-              if (clone.id) clone.removeAttribute("id");
-              brandline.append(clone);
+              const sourceImage = originalLogo.querySelector("img");
+              const sourceLink = originalLogo.querySelector("a");
+              if (sourceImage) {
+                const link = document.createElement("a");
+                link.className = "qe-ui-mobile-logo";
+                link.href = sourceLink?.getAttribute("href") || "/";
+                link.setAttribute("aria-label", "Quad Excursions · Homepage");
+                const image = document.createElement("img");
+                image.src = sourceImage.src;
+                image.alt = sourceImage.alt || "Quad Excursions";
+                link.append(image);
+                brandline.append(link);
+              }
             }
             if (originalPhone) {
               const phone = document.createElement("div");
@@ -79,10 +88,10 @@ export function ExtractedDocument({
           }
           const mobileLanguage = mobileHeader?.querySelector<HTMLSelectElement>("select.ms-language-selector");
           mobileLanguage?.style.setProperty("width", "100%", "important");
-          mobileLanguage?.style.setProperty("min-width", "108px", "important");
+          mobileLanguage?.style.setProperty("min-width", "0", "important");
           mobileLanguage?.style.setProperty("color", "#203537", "important");
           mobileLanguage?.style.setProperty("text-indent", "0", "important");
-          mobileLanguage?.style.setProperty("appearance", "auto", "important");
+          mobileLanguage?.style.setProperty("appearance", "none", "important");
 
           const style = document.createElement("style");
           style.id = "qe-refinement-sheet";
